@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating slm_sim.egg-info
+writing slm_sim.egg-info/PKG-INFO
+writing dependency_links to slm_sim.egg-info/dependency_links.txt
+writing entry points to slm_sim.egg-info/entry_points.txt
+writing requirements to slm_sim.egg-info/requires.txt
+writing top-level names to slm_sim.egg-info/top_level.txt
+writing manifest file 'slm_sim.egg-info/SOURCES.txt'
+reading manifest file 'slm_sim.egg-info/SOURCES.txt'
+writing manifest file 'slm_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/catkin_ws/install/slm_sim/lib/python3.10/site-packages/slm-sim.egg-link (link to .)
+Installing pendulum script to /root/catkin_ws/install/slm_sim/lib/slm_sim
+
+Installed /root/catkin_ws/build/slm_sim
+running symlink_data
+creating /root/catkin_ws/install/slm_sim/share/ament_index
+creating /root/catkin_ws/install/slm_sim/share/ament_index/resource_index
+creating /root/catkin_ws/install/slm_sim/share/ament_index/resource_index/packages
+symbolically linking /root/catkin_ws/build/slm_sim/resource/slm_sim -> /root/catkin_ws/install/slm_sim/share/ament_index/resource_index/packages
+symbolically linking /root/catkin_ws/build/slm_sim/package.xml -> /root/catkin_ws/install/slm_sim/share/slm_sim
+creating /root/catkin_ws/install/slm_sim/share/slm_sim/launch
+symbolically linking /root/catkin_ws/build/slm_sim/launch/display.launch.py -> /root/catkin_ws/install/slm_sim/share/slm_sim/launch
+symbolically linking /root/catkin_ws/build/slm_sim/urdf/pendulum.rviz -> /root/catkin_ws/install/slm_sim/share/slm_sim
+symbolically linking /root/catkin_ws/build/slm_sim/urdf/pendulum.urdf -> /root/catkin_ws/install/slm_sim/share/slm_sim
+creating /root/catkin_ws/install/slm_sim/share/slm_sim/meshes
+symbolically linking /root/catkin_ws/build/slm_sim/meshes/Arm_2.dae -> /root/catkin_ws/install/slm_sim/share/slm_sim/meshes
+symbolically linking /root/catkin_ws/build/slm_sim/meshes/Base_2.dae -> /root/catkin_ws/install/slm_sim/share/slm_sim/meshes

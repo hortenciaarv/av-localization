@@ -1,0 +1,3 @@
+[console_scripts]
+pendulum = slm_sim.slm_sim:main
+
