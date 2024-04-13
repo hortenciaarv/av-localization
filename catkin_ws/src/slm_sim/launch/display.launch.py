@@ -33,6 +33,11 @@ def generate_launch_description():
             executable='pendulum',
             name='slm_sim'
             ),
+        Node(
+            package='slm_sim',
+            executable='generator',
+            name='impulse_generator'
+            ),
             
     ])
 

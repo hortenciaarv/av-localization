@@ -1,3 +1,3 @@
 # generated from colcon_powershell/shell/template/hook_prepend_value.ps1.em
 
-colcon_prepend_unique_value PYTHONPATH "$env:COLCON_CURRENT_PREFIX\/root/catkin_ws/build/slm_sim"
+colcon_prepend_unique_value PYTHONPATH "$env:COLCON_CURRENT_PREFIX\/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/slm_sim"

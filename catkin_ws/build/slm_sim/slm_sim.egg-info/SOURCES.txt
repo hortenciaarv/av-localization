@@ -6,6 +6,7 @@ meshes/Arm_2.dae
 meshes/Base_2.dae
 resource/slm_sim
 slm_sim/__init__.py
+slm_sim/impulse.py
 slm_sim/slm_sim.py
 slm_sim.egg-info/PKG-INFO
 slm_sim.egg-info/SOURCES.txt
