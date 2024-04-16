@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!--Load mesh model -->
+    <arg name="urdf_model" default="/root/challenges_ws/src/slm_sim/urdf/pendulum.urdf"/>
+    <param name="robot_description" value="$(arg urdf_model)" command="cat"/>
+
+    <!--Robot State Publisher -->
+    <node pkg="robot_state_publisher" exec="robot_state_publisher" name="slm_state_pub" />
+
+    <!--RViz -->
+    <arg name="rvizconfig" default="/root/challenges_ws/src/slm_sim/rviz/manipulator.rviz" />
+    <node pkg="rviz2" exec="rviz2" name="rviz" output="screen">
+        <args>-d $(arg rvizconfig)</args>
+    </node>
+
+</launch>
