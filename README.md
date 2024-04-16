@@ -6,7 +6,7 @@ Each activity is organized into its own package within this repository. You can 
 
 ## Activities
 
-- **Activity 1**: Pendulum simulation in rviz
+- **Activity 1**: Pendulum simulation in rviz (slm_sim)
 - ...
 
 ## Running the Activities
