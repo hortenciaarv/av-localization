@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000780] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.000851] (slm_sim) JobQueued: {'identifier': 'slm_sim', 'dependencies': OrderedDict()}
+[0.000901] (localization) JobStarted: {'identifier': 'localization'}
+[0.014608] (slm_sim) JobStarted: {'identifier': 'slm_sim'}
+[0.099646] (-) TimerEvent: {}
+[0.200034] (-) TimerEvent: {}
+[0.300539] (-) TimerEvent: {}
+[0.400914] (-) TimerEvent: {}
+[0.501452] (-) TimerEvent: {}
+[0.602201] (-) TimerEvent: {}
+[0.702595] (-) TimerEvent: {}
+[0.803230] (-) TimerEvent: {}
+[0.903694] (-) TimerEvent: {}
+[0.986419] (localization) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/localization', 'build', '--build-base', '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/build', 'install', '--record', '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/src/localization', 'env': {'HOSTNAME': '8c2c61350ea9', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/Team_IntegrationRobotics_and_IntelligentSystems', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/slm_sim:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization:/opt/ros/humble', 'PWD': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/prefix_override:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/slm_sim/lib/python3.10/site-packages:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.992623] (slm_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/slm_sim', 'build', '--build-base', '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/slm_sim/build', 'install', '--record', '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/slm_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/src/slm_sim', 'env': {'HOSTNAME': '8c2c61350ea9', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/Team_IntegrationRobotics_and_IntelligentSystems', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/slm_sim:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization:/opt/ros/humble', 'PWD': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/slm_sim', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/slm_sim/prefix_override:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/slm_sim/lib/python3.10/site-packages:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/slm_sim/lib/python3.10/site-packages:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.003860] (-) TimerEvent: {}
+[1.104316] (-) TimerEvent: {}
+[1.204886] (-) TimerEvent: {}
+[1.233866] (localization) StdoutLine: {'line': b'running egg_info\n'}
+[1.234082] (slm_sim) StdoutLine: {'line': b'running egg_info\n'}
+[1.234803] (localization) StdoutLine: {'line': b'writing ../../build/localization/localization.egg-info/PKG-INFO\n'}
+[1.234936] (slm_sim) StdoutLine: {'line': b'writing ../../build/slm_sim/slm_sim.egg-info/PKG-INFO\n'}
+[1.235302] (slm_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/slm_sim/slm_sim.egg-info/dependency_links.txt\n'}
+[1.235412] (slm_sim) StdoutLine: {'line': b'writing entry points to ../../build/slm_sim/slm_sim.egg-info/entry_points.txt\n'}
+[1.235707] (localization) StdoutLine: {'line': b'writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt\n'}
+[1.235874] (localization) StdoutLine: {'line': b'writing entry points to ../../build/localization/localization.egg-info/entry_points.txt\n'}
+[1.238054] (localization) StdoutLine: {'line': b'writing requirements to ../../build/localization/localization.egg-info/requires.txt\n'}
+[1.238168] (localization) StdoutLine: {'line': b'writing top-level names to ../../build/localization/localization.egg-info/top_level.txt\n'}
+[1.238865] (slm_sim) StdoutLine: {'line': b'writing requirements to ../../build/slm_sim/slm_sim.egg-info/requires.txt\n'}
+[1.238988] (slm_sim) StdoutLine: {'line': b'writing top-level names to ../../build/slm_sim/slm_sim.egg-info/top_level.txt\n'}
+[1.239488] (localization) StdoutLine: {'line': b"reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'\n"}
+[1.239604] (localization) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.239900] (localization) StdoutLine: {'line': b"writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'\n"}
+[1.240341] (localization) StdoutLine: {'line': b'running build\n'}
+[1.240447] (localization) StdoutLine: {'line': b'running build_py\n'}
+[1.240699] (localization) StdoutLine: {'line': b'copying localization/joint_states.py -> /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/build/lib/localization\n'}
+[1.241004] (slm_sim) StdoutLine: {'line': b"reading manifest file '../../build/slm_sim/slm_sim.egg-info/SOURCES.txt'\n"}
+[1.241284] (slm_sim) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.241494] (localization) StdoutLine: {'line': b'running install\n'}
+[1.241727] (localization) StdoutLine: {'line': b'running install_lib\n'}
+[1.242035] (slm_sim) StdoutLine: {'line': b"writing manifest file '../../build/slm_sim/slm_sim.egg-info/SOURCES.txt'\n"}
+[1.242159] (slm_sim) StdoutLine: {'line': b'running build\n'}
+[1.242228] (slm_sim) StdoutLine: {'line': b'running build_py\n'}
+[1.242481] (localization) StdoutLine: {'line': b'copying /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/build/lib/localization/joint_states.py -> /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization\n'}
+[1.242755] (slm_sim) StdoutLine: {'line': b'running install\n'}
+[1.243040] (localization) StdoutLine: {'line': b'byte-compiling /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization/joint_states.py to joint_states.cpython-310.pyc\n'}
+[1.243254] (slm_sim) StdoutLine: {'line': b'running install_lib\n'}
+[1.243746] (localization) StdoutLine: {'line': b'running install_data\n'}
+[1.244004] (localization) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.244590] (slm_sim) StdoutLine: {'line': b'running install_data\n'}
+[1.244872] (slm_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.246582] (localization) StdoutLine: {'line': b"removing '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.246712] (localization) StdoutLine: {'line': b'Copying ../../build/localization/localization.egg-info to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info\n'}
+[1.246944] (slm_sim) StdoutLine: {'line': b"removing '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/slm_sim/lib/python3.10/site-packages/slm_sim-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.247220] (localization) StdoutLine: {'line': b'running install_scripts\n'}
+[1.247442] (slm_sim) StdoutLine: {'line': b'Copying ../../build/slm_sim/slm_sim.egg-info to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/slm_sim/lib/python3.10/site-packages/slm_sim-0.0.0-py3.10.egg-info\n'}
+[1.248340] (slm_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[1.272329] (slm_sim) StdoutLine: {'line': b'Installing generator script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/slm_sim/lib/slm_sim\n'}
+[1.272592] (localization) StdoutLine: {'line': b'Installing controller script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization\n'}
+[1.272886] (slm_sim) StdoutLine: {'line': b'Installing pendulum script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/slm_sim/lib/slm_sim\n'}
+[1.273056] (slm_sim) StdoutLine: {'line': b"writing list of installed files to '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/slm_sim/install.log'\n"}
+[1.273843] (localization) StdoutLine: {'line': b'Installing coordinate_transform script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization\n'}
+[1.274069] (localization) StdoutLine: {'line': b'Installing joint_state script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization\n'}
+[1.274315] (localization) StdoutLine: {'line': b'Installing kinematic_node script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization\n'}
+[1.274538] (localization) StdoutLine: {'line': b'Installing localization script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization\n'}
+[1.274725] (localization) StdoutLine: {'line': b"writing list of installed files to '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/install.log'\n"}
+[1.300315] (slm_sim) CommandEnded: {'returncode': 0}
+[1.305081] (-) TimerEvent: {}
+[1.317027] (slm_sim) JobEnded: {'identifier': 'slm_sim', 'rc': 0}
+[1.318643] (localization) CommandEnded: {'returncode': 0}
+[1.325016] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[1.326607] (-) EventReactorShutdown: {}

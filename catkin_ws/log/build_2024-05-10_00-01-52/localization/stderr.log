@@ -1,0 +1,5 @@
+  File "/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization/localization.py", line 100
+    self.delta_k(0,0)= self.kr*np.abs(self.wr)
+    ^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to function call here. Maybe you meant '==' instead of '='?
+

@@ -1,0 +1,34 @@
+[0.578s] Invoking command in '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/src/localization': PYTHONPATH=/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/prefix_override:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/build install --record /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/install.log --single-version-externally-managed install_data
+[0.737s] running egg_info
+[0.738s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[0.738s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[0.739s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[0.739s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[0.739s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[0.740s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.741s] adding license file 'LICENSE'
+[0.741s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.741s] running build
+[0.742s] running build_py
+[0.742s] copying localization/localization.py -> /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/build/lib/localization
+[0.742s] running install
+[0.742s] running install_lib
+[0.743s] copying /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/build/lib/localization/localization.py -> /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization
+[0.744s] byte-compiling /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization/localization.py to localization.cpython-310.pyc
+[0.745s]   File "/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization/localization.py", line 100
+[0.745s]     self.delta_k(0,0)= self.kr*np.abs(self.wr)
+[0.745s]     ^^^^^^^^^^^^^^^^^
+[0.745s] SyntaxError: cannot assign to function call here. Maybe you meant '==' instead of '='?
+[0.745s] 
+[0.745s] running install_data
+[0.745s] running install_egg_info
+[0.747s] removing '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info' (and everything under it)
+[0.747s] Copying ../../build/localization/localization.egg-info to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+[0.748s] running install_scripts
+[0.764s] Installing controller script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization
+[0.764s] Installing coordinate_transform script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization
+[0.765s] Installing joint_state script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization
+[0.765s] Installing kinematic_node script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization
+[0.765s] Installing localization script to /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/localization
+[0.765s] writing list of installed files to '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/install.log'
+[0.791s] Invoked command in '/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/src/localization' returned '0': PYTHONPATH=/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/prefix_override:/root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/build install --record /root/Team_IntegrationRobotics_and_IntelligentSystems/catkin_ws/build/localization/install.log --single-version-externally-managed install_data

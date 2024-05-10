@@ -29,15 +29,20 @@ def generate_launch_description():
             parameters=[{'use_sim_time': use_sim_time, 'robot_description': robot_desc}],
             arguments=[urdf]),
         Node(
-            package='slm_sim',
-            executable='pendulum',
-            name='slm_sim'
+            package='joint_state_publisher_gui',
+            executable='joint_state_publisher_gui',
+            name='joint_state_publisher_gui'
             ),
-        Node(
-            package='slm_sim',
-            executable='generator',
-            name='impulse_generator'
-            ),
+        # Node(
+        #     package='slm_sim',
+        #     executable='pendulum',
+        #     name='slm_sim'
+        #     ),
+        # Node(
+        #     package='slm_sim',
+        #     executable='generator',
+        #     name='impulse_generator'
+        #     ),
             
     ])
 
