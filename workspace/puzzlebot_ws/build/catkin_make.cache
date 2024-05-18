@@ -1,0 +1,2 @@
+localisation:puzzlebot_control:puzzlebot_description:puzzlebot_gazebo
+-DCATKIN_DEVEL_PREFIX=/root/workspace/puzzlebot_ws/devel -DCMAKE_INSTALL_PREFIX=/root/workspace/puzzlebot_ws/install -G Unix Makefiles

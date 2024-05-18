@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/workspace/puzzlebot_ws/install/setup.sh
