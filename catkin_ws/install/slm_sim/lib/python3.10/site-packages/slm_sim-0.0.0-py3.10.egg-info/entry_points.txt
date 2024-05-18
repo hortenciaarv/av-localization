@@ -1,4 +1,0 @@
-[console_scripts]
-generator = slm_sim.impulse:main
-pendulum = slm_sim.slm_sim:main
-

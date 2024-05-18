@@ -1,7 +1,0 @@
-[console_scripts]
-controller = localization.controller:main
-coordinate_transform = localization.coordinate_transform:main
-joint_state = localization.joint_states:main
-kinematic_node = localization.kinematic_model:main
-localization = localization.localization:main
-
