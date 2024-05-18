@@ -1,8 +1,0 @@
-prefix=/root/workspace/puzzlebot_ws/install
-
-Name: puzzlebot_description
-Description: Description of puzzlebot_description
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
