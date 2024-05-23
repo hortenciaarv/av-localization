@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package RPCDemoPkg;
+
+option go_package = "example.com/rest-gateway-demo/protos";
+import "google/api/annotations.proto";
+
+message Image {
+  bytes data = 1;
+}
+
+message Position{
+  float x = 1;
+  float y = 2;
+  float theta = 3;
+}
+
+message Empty {} 
+
+service Wrapper {
+  rpc UploadPose(Empty) returns (Position) {
+    option(google.api.http) = {
+            post : "/restgatewaydemo/getmultcoords"
+            body: "*"
+    };
+  };
+  rpc UploadImage(Empty) returns (Image) {
+    option(google.api.http) = {
+            post : "/restgatewaydemo/getimageresult"
+            body: "*"
+    };
+  };
+};

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package RPCDemoPkg;
+
+message Image {
+  bytes data = 1;
+
+}
+
+message Position{
+  float x = 1;
+  float y = 2;
+  float theta = 3;
+}
+
+message Empty {} 
+
+service Wrapper {
+  rpc UploadPose(Empty) returns (Position) {}
+  rpc UploadImage(Empty) returns (Image) {}
+}
