@@ -1,0 +1,180 @@
+[0.177s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs -- -j4 -l4
+[0.874s] [  2%] Built target aruco_opencv_msgs__cpp
+[0.910s] [ 12%] Built target aruco_opencv_msgs__rosidl_generator_c
+[1.017s] [ 12%] Built target ament_cmake_python_copy_aruco_opencv_msgs
+[1.297s] [ 23%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_cpp
+[1.311s] [ 34%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c
+[1.352s] [ 44%] Built target aruco_opencv_msgs__rosidl_typesupport_cpp
+[1.361s] [ 55%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp
+[1.613s] [ 65%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c
+[1.639s] [ 76%] Built target aruco_opencv_msgs__rosidl_typesupport_c
+[1.844s] [ 76%] Built target aruco_opencv_msgs
+[2.074s] [ 78%] Built target aruco_opencv_msgs__py
+[2.533s] [ 87%] Built target aruco_opencv_msgs__rosidl_generator_py
+[3.025s] [ 91%] Built target aruco_opencv_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.161s] [ 95%] Built target aruco_opencv_msgs__rosidl_typesupport_c__pyext
+[3.213s] [100%] Built target aruco_opencv_msgs__rosidl_typesupport_introspection_c__pyext
+[3.708s] running egg_info
+[3.711s] writing aruco_opencv_msgs.egg-info/PKG-INFO
+[3.711s] writing dependency_links to aruco_opencv_msgs.egg-info/dependency_links.txt
+[3.712s] writing top-level names to aruco_opencv_msgs.egg-info/top_level.txt
+[4.094s] reading manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'
+[4.099s] writing manifest file 'aruco_opencv_msgs.egg-info/SOURCES.txt'
+[4.344s] [100%] Built target ament_cmake_python_build_aruco_opencv_msgs_egg
+[5.537s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs -- -j4 -l4
+[6.710s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs
+[6.791s] -- Install configuration: ""
+[6.794s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_opencv_msgs
+[6.799s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[6.802s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[6.806s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.h
+[6.809s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.812s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[6.814s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__functions.c
+[6.815s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__functions.c
+[6.824s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.h
+[6.825s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__functions.c
+[6.826s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.h
+[6.827s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.h
+[6.828s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.h
+[6.831s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__functions.h
+[6.831s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.h
+[6.832s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__functions.h
+[6.832s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.h
+[6.833s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__functions.h
+[6.833s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.h
+[6.833s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.h
+[6.836s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.sh
+[6.836s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/library_path.dsv
+[6.841s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_c.so
+[6.845s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[6.845s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[6.846s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.846s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[6.847s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_c.h
+[6.847s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_c.h
+[6.848s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_c.h
+[6.851s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_c.so
+[6.857s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[6.858s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[6.859s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.859s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[6.860s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.c
+[6.861s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_c.h
+[6.861s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.c
+[6.862s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_c.h
+[6.865s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.c
+[6.867s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_c.h
+[6.870s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_c.so
+[6.870s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_c.so
+[6.871s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[6.871s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[6.871s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/board_pose.hpp
+[6.872s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/marker_pose.hpp
+[6.872s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[6.873s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__builder.hpp
+[6.883s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__traits.hpp
+[6.885s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__builder.hpp
+[6.886s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__builder.hpp
+[6.886s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__struct.hpp
+[6.887s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__struct.hpp
+[6.887s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__struct.hpp
+[6.888s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__traits.hpp
+[6.888s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__traits.hpp
+[6.889s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/aruco_detection.hpp
+[6.889s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[6.898s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[6.899s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.899s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[6.899s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/dds_fastrtps
+[6.900s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[6.900s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[6.901s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[6.901s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.901s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs
+[6.902s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg
+[6.902s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail
+[6.902s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__rosidl_typesupport_introspection_cpp.hpp
+[6.903s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__type_support.cpp
+[6.903s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[6.904s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/aruco_detection__rosidl_typesupport_introspection_cpp.hpp
+[6.904s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/board_pose__type_support.cpp
+[6.919s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/include/aruco_opencv_msgs/aruco_opencv_msgs/msg/detail/marker_pose__type_support.cpp
+[6.919s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_introspection_cpp.so
+[6.921s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_typesupport_cpp.so
+[6.922s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.sh
+[6.923s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/pythonpath.dsv
+[6.923s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs-2.2.0-py3.8.egg-info
+[6.924s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs-2.2.0-py3.8.egg-info/top_level.txt
+[6.925s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs-2.2.0-py3.8.egg-info/PKG-INFO
+[6.925s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs-2.2.0-py3.8.egg-info/SOURCES.txt
+[6.935s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs-2.2.0-py3.8.egg-info/dependency_links.txt
+[6.935s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs
+[6.936s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.937s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/__init__.py
+[6.938s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.945s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg
+[6.946s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_marker_pose_s.c
+[6.946s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/__init__.py
+[6.947s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_board_pose.py
+[6.947s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_aruco_detection_s.c
+[6.948s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_marker_pose.py
+[6.948s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_aruco_detection.py
+[6.951s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg/_board_pose_s.c
+[6.952s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_c.c
+[6.952s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.953s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/_aruco_opencv_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.953s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/libaruco_opencv_msgs__rosidl_generator_py.so
+[6.954s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[7.159s] Listing '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs'...
+[7.159s] Listing '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/msg'...
+[7.185s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[7.189s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[7.193s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages/aruco_opencv_msgs/aruco_opencv_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[7.197s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/libaruco_opencv_msgs__rosidl_generator_py.so
+[7.199s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.idl
+[7.200s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.idl
+[7.205s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.idl
+[7.207s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/ArucoDetection.msg
+[7.208s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/BoardPose.msg
+[7.210s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/msg/MarkerPose.msg
+[7.211s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_opencv_msgs
+[7.212s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_opencv_msgs
+[7.214s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.sh
+[7.215s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/ament_prefix_path.dsv
+[7.217s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.sh
+[7.219s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/environment/path.dsv
+[7.220s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.bash
+[7.225s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.sh
+[7.225s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.zsh
+[7.227s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/local_setup.dsv
+[7.228s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv
+[7.231s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/ament_index/resource_index/packages/aruco_opencv_msgs
+[7.233s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport.cmake
+[7.234s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.242s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.243s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.244s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.247s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.248s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport.cmake
+[7.248s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.254s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_cppExport.cmake
+[7.256s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.257s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.258s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.259s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.261s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport.cmake
+[7.262s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.264s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport.cmake
+[7.265s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/export_aruco_opencv_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.265s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake-extras.cmake
+[7.266s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.267s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.267s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.268s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.269s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.269s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.277s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig.cmake
+[7.278s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake/aruco_opencv_msgsConfig-version.cmake
+[7.278s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.xml
+[7.293s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs

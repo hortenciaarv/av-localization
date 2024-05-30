@@ -1,0 +1,840 @@
+[1.408s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.409s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb0256760>>, merge_install=False, meson_args=[], metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb0256760>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fb0256c40>)
+[2.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.266s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/puzzlebot/ros2_packages_ws'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'meson', 'python']
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'meson', 'python']
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'meson'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_info_publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_info_publisher) by extension 'ignore'
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_info_publisher) by extension 'ignore_ament_install'
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_info_publisher) by extensions ['colcon_pkg']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_info_publisher) by extension 'colcon_pkg'
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_info_publisher) by extensions ['colcon_meta']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_info_publisher) by extension 'colcon_meta'
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_info_publisher) by extensions ['ros']
+[2.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_info_publisher) by extension 'ros'
+[2.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_info_publisher' with type 'ros.ament_cmake' and name 'camera_info_publisher'
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extensions ['ignore', 'ignore_ament_install']
+[2.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'ignore'
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'ignore_ament_install'
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extensions ['colcon_pkg']
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'colcon_pkg'
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extensions ['colcon_meta']
+[2.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'colcon_meta'
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extensions ['ros']
+[2.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'ros'
+[2.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_viewer' with type 'ros.ament_python' and name 'camera_viewer'
+[2.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ignore', 'ignore_ament_install']
+[2.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore'
+[2.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore_ament_install'
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_pkg']
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_pkg'
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_meta']
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_meta'
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ros']
+[2.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ros'
+[2.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization' with type 'ros.ament_python' and name 'localization'
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[2.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[2.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[2.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[2.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[2.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['ignore', 'ignore_ament_install']
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ignore'
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ignore_ament_install'
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['colcon_pkg']
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'colcon_pkg'
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['colcon_meta']
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'colcon_meta'
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['ros']
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'ros'
+[2.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['cmake', 'meson', 'python']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'cmake'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'meson'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'python'
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extensions ['python_setup_py']
+[2.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv) by extension 'python_setup_py'
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['ignore', 'ignore_ament_install']
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'ignore'
+[2.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'ignore_ament_install'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['colcon_pkg']
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'colcon_pkg'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['colcon_meta']
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'colcon_meta'
+[2.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extensions ['ros']
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv) by extension 'ros'
+[2.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_aruco_opencv/aruco_opencv' with type 'ros.ament_cmake' and name 'aruco_opencv'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ignore'
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ignore_ament_install'
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['colcon_pkg']
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'colcon_pkg'
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['colcon_meta']
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'colcon_meta'
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extensions ['ros']
+[2.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_aruco_opencv/aruco_opencv_msgs) by extension 'ros'
+[2.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_aruco_opencv/aruco_opencv_msgs' with type 'ros.ament_cmake' and name 'aruco_opencv_msgs'
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extensions ['ignore', 'ignore_ament_install']
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'ignore'
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'ignore_ament_install'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extensions ['colcon_pkg']
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'colcon_pkg'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extensions ['colcon_meta']
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'colcon_meta'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extensions ['ros']
+[2.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_deep_learning) by extension 'ros'
+[2.374s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_deep_learning' with type 'ros.ament_cmake' and name 'ros_deep_learning'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[2.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[2.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[2.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'meson', 'python']
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[2.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'meson'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'meson', 'python']
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'meson'
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[2.392s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'meson', 'python']
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'meson'
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'meson', 'python']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'meson'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'meson', 'python']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'meson'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[2.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[2.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[2.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.479s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/puzzlebot/ros2_packages_ws/install
+[2.482s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/puzzlebot/ros2_ws/install
+[2.489s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/humble
+[2.504s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_args' from command line to 'None'
+[2.969s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_target' from command line to 'None'
+[2.970s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.970s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.970s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.970s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.970s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'meson_args' from command line to '[]'
+[2.970s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.970s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.971s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.971s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_opencv_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'cmake_target' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'meson_args' from command line to '[]'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'camera_info_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.046s] DEBUG:colcon.colcon_core.verb:Building package 'camera_info_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/camera_info_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/camera_info_publisher', 'symlink_install': False, 'test_result_base': None}
+[3.123s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_args' from command line to 'None'
+[3.123s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_target' from command line to 'None'
+[3.123s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'meson_args' from command line to '[]'
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.125s] DEBUG:colcon.colcon_core.verb:Building package 'camera_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/camera_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/camera_viewer', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/camera_viewer', 'symlink_install': False, 'test_result_base': None}
+[3.198s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_args' from command line to 'None'
+[3.198s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target' from command line to 'None'
+[3.198s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.198s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_cache' from command line to 'False'
+[3.199s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_first' from command line to 'False'
+[3.199s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_force_configure' from command line to 'False'
+[3.199s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'meson_args' from command line to '[]'
+[3.199s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'ament_cmake_args' from command line to 'None'
+[3.199s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_cmake_args' from command line to 'None'
+[3.199s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.199s] DEBUG:colcon.colcon_core.verb:Building package 'localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/localization', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/localization', 'symlink_install': False, 'test_result_base': None}
+[3.274s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[3.274s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[3.274s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.274s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.274s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'meson_args' from command line to '[]'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.275s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[3.353s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'meson_args' from command line to '[]'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.354s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.354s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[3.428s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_args' from command line to 'None'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_target' from command line to 'None'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_clean_cache' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_clean_first' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'cmake_force_configure' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'meson_args' from command line to '[]'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'ament_cmake_args' from command line to 'None'
+[3.430s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'catkin_cmake_args' from command line to 'None'
+[3.430s] Level 5:colcon.colcon_core.verb:set package 'ros_deep_learning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.430s] DEBUG:colcon.colcon_core.verb:Building package 'ros_deep_learning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/ros_deep_learning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning', 'symlink_install': False, 'test_result_base': None}
+[3.503s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[3.504s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[3.504s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.504s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.504s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[3.504s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[3.504s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'meson_args' from command line to '[]'
+[3.504s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[3.505s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.505s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.505s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[3.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_args' from command line to 'None'
+[3.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_target' from command line to 'None'
+[3.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.586s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[3.587s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[3.587s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[3.587s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'meson_args' from command line to '[]'
+[3.587s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[3.587s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[3.587s] Level 5:colcon.colcon_core.verb:set package 'aruco_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.588s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv', 'symlink_install': False, 'test_result_base': None}
+[3.673s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[3.673s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[3.674s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.674s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[3.674s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[3.674s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[3.674s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'meson_args' from command line to '[]'
+[3.674s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[3.674s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[3.674s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.675s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent', 'merge_install': False, 'meson_args': [], 'path': '/home/puzzlebot/ros2_packages_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[3.675s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.679s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.680s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv_msgs' with build type 'ament_cmake'
+[3.681s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/puzzlebot/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv_msgs'
+[3.690s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.691s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.691s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.727s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[3.729s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/puzzlebot/ros2_packages_ws/src/uros/micro_ros_msgs'
+[3.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.757s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/camera_info_publisher' with build type 'ament_cmake'
+[3.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/puzzlebot/ros2_packages_ws/src/camera_info_publisher'
+[3.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.791s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/camera_viewer' with build type 'ament_python'
+[3.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_viewer', 'ament_prefix_path')
+[3.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/hook/ament_prefix_path.ps1'
+[3.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/hook/ament_prefix_path.dsv'
+[3.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/hook/ament_prefix_path.sh'
+[3.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs -- -j4 -l4
+[3.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs -- -j4 -l4
+[3.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/camera_info_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/camera_info_publisher -- -j4 -l4
+[5.434s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/puzzlebot/ros2_packages_ws/src/camera_viewer'
+[5.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/camera_info_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/camera_info_publisher -- -j4 -l4
+[6.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/camera_info_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/camera_info_publisher
+[6.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_publisher)
+[6.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/camera_info_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/camera_info_publisher
+[6.358s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher' for CMake module files
+[6.361s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher' for CMake config files
+[6.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_publisher', 'cmake_prefix_path')
+[6.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/hook/cmake_prefix_path.ps1'
+[6.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/hook/cmake_prefix_path.dsv'
+[6.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/hook/cmake_prefix_path.sh'
+[6.379s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/lib'
+[6.381s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/bin'
+[6.381s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/lib/pkgconfig/camera_info_publisher.pc'
+[6.382s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/lib/python3.8/site-packages'
+[6.383s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/bin'
+[6.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.ps1'
+[6.389s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.dsv'
+[6.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.sh'
+[6.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.bash'
+[6.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.zsh'
+[6.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/colcon-core/packages/camera_info_publisher)
+[6.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_publisher)
+[6.556s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher' for CMake module files
+[6.561s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher' for CMake config files
+[6.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_publisher', 'cmake_prefix_path')
+[6.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/hook/cmake_prefix_path.ps1'
+[6.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/hook/cmake_prefix_path.dsv'
+[6.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/hook/cmake_prefix_path.sh'
+[6.577s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/lib'
+[6.584s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/bin'
+[6.584s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/lib/pkgconfig/camera_info_publisher.pc'
+[6.585s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/lib/python3.8/site-packages'
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/bin'
+[6.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.ps1'
+[6.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.dsv'
+[6.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.sh'
+[6.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.bash'
+[6.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.zsh'
+[6.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/colcon-core/packages/camera_info_publisher)
+[6.602s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/localization' with build type 'ament_python'
+[6.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'ament_prefix_path')
+[6.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/hook/ament_prefix_path.ps1'
+[6.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/hook/ament_prefix_path.dsv'
+[6.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/hook/ament_prefix_path.sh'
+[6.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs -- -j4 -l4
+[8.164s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/puzzlebot/ros2_packages_ws/src/localization'
+[8.166s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs -- -j4 -l4
+[8.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs
+[8.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/src/camera_viewer': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/camera_viewer/prefix_override:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/puzzlebot/ros2_packages_ws/build/camera_viewer/build install --record /home/puzzlebot/ros2_packages_ws/build/camera_viewer/install.log --single-version-externally-managed install_data
+[8.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[8.648s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs' for CMake module files
+[8.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs
+[8.652s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs' for CMake config files
+[8.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[8.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[8.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[8.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[8.663s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib'
+[8.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[8.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[8.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[8.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[8.671s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/bin'
+[8.672s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[8.673s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages'
+[8.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[8.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[8.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[8.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[8.680s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/bin'
+[8.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[8.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[8.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[8.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[8.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[8.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[9.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs
+[10.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv_msgs)
+[10.319s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs' for CMake module files
+[10.323s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs' for CMake config files
+[10.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'cmake_prefix_path')
+[10.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.ps1'
+[10.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.dsv'
+[10.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs
+[10.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.sh'
+[10.339s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib'
+[10.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'ld_library_path_lib')
+[10.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.ps1'
+[10.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.dsv'
+[10.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.sh'
+[10.352s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/bin'
+[10.353s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/pkgconfig/aruco_opencv_msgs.pc'
+[10.354s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages'
+[10.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'pythonpath')
+[10.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.ps1'
+[10.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.dsv'
+[10.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.sh'
+[10.367s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/bin'
+[10.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.ps1'
+[10.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv'
+[10.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.sh'
+[10.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.bash'
+[10.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.zsh'
+[10.379s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/colcon-core/packages/aruco_opencv_msgs)
+[10.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[10.410s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs' for CMake module files
+[10.414s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs' for CMake config files
+[10.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[10.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[10.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[10.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[10.444s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib'
+[10.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[10.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[10.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[10.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[10.455s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/bin'
+[10.455s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[10.456s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages'
+[10.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[10.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[10.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[10.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[10.464s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/bin'
+[10.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[10.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[10.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[10.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[10.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[10.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[10.493s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[10.495s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/puzzlebot/ros2_packages_ws/src/micro_ros_setup'
+[10.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_setup -- -j4 -l4
+[10.581s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_viewer' for CMake module files
+[10.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/src/camera_viewer' returned '0': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/camera_viewer/prefix_override:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/puzzlebot/ros2_packages_ws/build/camera_viewer/build install --record /home/puzzlebot/ros2_packages_ws/build/camera_viewer/install.log --single-version-externally-managed install_data
+[10.585s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_viewer' for CMake config files
+[10.588s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib'
+[10.589s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/bin'
+[10.589s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/pkgconfig/camera_viewer.pc'
+[10.590s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages'
+[10.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_viewer', 'pythonpath')
+[10.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/hook/pythonpath.ps1'
+[10.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/hook/pythonpath.dsv'
+[10.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/hook/pythonpath.sh'
+[10.601s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/bin'
+[10.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_viewer)
+[10.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/package.ps1'
+[10.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/package.dsv'
+[10.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/package.sh'
+[10.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/package.bash'
+[10.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/camera_viewer/package.zsh'
+[10.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/camera_viewer/share/colcon-core/packages/camera_viewer)
+[10.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning' with build type 'ament_cmake'
+[10.621s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning'
+[10.622s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/ros_deep_learning -- -j4 -l4
+[10.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_setup -- -j4 -l4
+[11.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_setup
+[11.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/src/localization': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data
+[11.243s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[11.245s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup' for CMake module files
+[11.248s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup' for CMake config files
+[11.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[11.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[11.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[11.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[11.275s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib'
+[11.300s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/bin'
+[11.300s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[11.301s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/python3.8/site-packages'
+[11.302s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/bin'
+[11.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[11.306s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[11.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[11.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[11.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[11.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[11.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_setup
+[11.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[11.602s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup' for CMake module files
+[11.606s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup' for CMake config files
+[11.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[11.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[11.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[11.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[11.618s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib'
+[11.619s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/bin'
+[11.619s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[11.620s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/python3.8/site-packages'
+[11.621s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/bin'
+[11.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[11.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[11.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[11.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[11.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[11.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[11.638s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[11.640s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/puzzlebot/ros2_packages_ws/src/sllidar_ros2'
+[11.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.683s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv_msgs)
+[11.685s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs' for CMake module files
+[11.689s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs' for CMake config files
+[11.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'cmake_prefix_path')
+[11.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.ps1'
+[11.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.dsv'
+[11.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/cmake_prefix_path.sh'
+[11.701s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib'
+[11.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'ld_library_path_lib')
+[11.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.ps1'
+[11.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.dsv'
+[11.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/ld_library_path_lib.sh'
+[11.708s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/bin'
+[11.708s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/pkgconfig/aruco_opencv_msgs.pc'
+[11.709s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages'
+[11.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv_msgs', 'pythonpath')
+[11.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.ps1'
+[11.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.dsv'
+[11.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/hook/pythonpath.sh'
+[11.717s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/bin'
+[11.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.ps1'
+[11.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.dsv'
+[11.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.sh'
+[11.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.bash'
+[11.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/package.zsh'
+[11.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/share/colcon-core/packages/aruco_opencv_msgs)
+[11.736s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv' with build type 'ament_cmake'
+[11.738s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/puzzlebot/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv'
+[11.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/sllidar_ros2 -- -j4 -l4
+[11.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/ros_deep_learning -- -j4 -l4
+[11.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/build/puzzlebot_ros:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/aruco_opencv -- -j4 -l4
+[12.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/ros_deep_learning
+[12.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/sllidar_ros2 -- -j4 -l4
+[12.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_deep_learning)
+[12.564s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning' for CMake module files
+[12.569s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning' for CMake config files
+[12.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_deep_learning', 'cmake_prefix_path')
+[12.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/ros_deep_learning
+[12.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.ps1'
+[12.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.dsv'
+[12.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.sh'
+[12.584s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib'
+[12.585s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/bin'
+[12.585s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib/pkgconfig/ros_deep_learning.pc'
+[12.586s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib/python3.8/site-packages'
+[12.587s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/bin'
+[12.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.ps1'
+[12.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.dsv'
+[12.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.sh'
+[12.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.bash'
+[12.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.zsh'
+[12.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/colcon-core/packages/ros_deep_learning)
+[12.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv' returned '0': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/build/puzzlebot_ros:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/aruco_opencv -- -j4 -l4
+[13.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/build/puzzlebot_ros:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/aruco_opencv
+[13.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv)
+[13.172s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv' for CMake module files
+[13.175s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv' for CMake config files
+[13.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'cmake_prefix_path')
+[13.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.ps1'
+[13.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv' returned '0': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/build/puzzlebot_ros:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/aruco_opencv
+[13.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.dsv'
+[13.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.sh'
+[13.200s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib'
+[13.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'ld_library_path_lib')
+[13.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.ps1'
+[13.204s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.dsv'
+[13.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.sh'
+[13.210s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/bin'
+[13.210s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib/pkgconfig/aruco_opencv.pc'
+[13.212s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib/python3.8/site-packages'
+[13.213s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/bin'
+[13.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.ps1'
+[13.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.dsv'
+[13.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.sh'
+[13.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.bash'
+[13.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.zsh'
+[13.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/colcon-core/packages/aruco_opencv)
+[13.258s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/localization' for CMake module files
+[13.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/src/localization' returned '0': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data
+[13.268s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/localization' for CMake config files
+[13.272s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/localization/lib'
+[13.273s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/localization/bin'
+[13.274s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/localization/lib/pkgconfig/localization.pc'
+[13.275s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages'
+[13.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'pythonpath')
+[13.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/hook/pythonpath.ps1'
+[13.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/hook/pythonpath.dsv'
+[13.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/hook/pythonpath.sh'
+[13.289s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/localization/bin'
+[13.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[13.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/package.ps1'
+[13.296s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/package.dsv'
+[13.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/package.sh'
+[13.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/package.bash'
+[13.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/localization/share/localization/package.zsh'
+[13.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/localization/share/colcon-core/packages/localization)
+[13.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_deep_learning)
+[13.317s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning' for CMake module files
+[13.321s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning' for CMake config files
+[13.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_deep_learning', 'cmake_prefix_path')
+[13.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.ps1'
+[13.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.dsv'
+[13.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/hook/cmake_prefix_path.sh'
+[13.333s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib'
+[13.334s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/bin'
+[13.335s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib/pkgconfig/ros_deep_learning.pc'
+[13.337s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib/python3.8/site-packages'
+[13.338s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/bin'
+[13.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.ps1'
+[13.343s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.dsv'
+[13.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.sh'
+[13.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.bash'
+[13.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.zsh'
+[13.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/colcon-core/packages/ros_deep_learning)
+[13.361s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/puzzlebot/ros2_packages_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[13.363s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/puzzlebot/ros2_packages_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[13.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/sllidar_ros2
+[13.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_opencv)
+[13.425s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv' for CMake module files
+[13.428s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv' for CMake config files
+[13.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'cmake_prefix_path')
+[13.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.ps1'
+[13.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.dsv'
+[13.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/cmake_prefix_path.sh'
+[13.437s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib'
+[13.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_opencv', 'ld_library_path_lib')
+[13.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.ps1'
+[13.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.dsv'
+[13.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/hook/ld_library_path_lib.sh'
+[13.444s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/bin'
+[13.445s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib/pkgconfig/aruco_opencv.pc'
+[13.446s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib/python3.8/site-packages'
+[13.447s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/bin'
+[13.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.ps1'
+[13.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.dsv'
+[13.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.sh'
+[13.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.bash'
+[13.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.zsh'
+[13.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/share/colcon-core/packages/aruco_opencv)
+[13.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/build/puzzlebot_ros:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_agent -- -j4 -l4
+[13.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[13.515s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2' for CMake module files
+[13.519s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2' for CMake config files
+[13.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[13.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[13.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/sllidar_ros2
+[13.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[13.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[13.530s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/lib'
+[13.530s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/bin'
+[13.530s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[13.531s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[13.532s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/bin'
+[13.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[13.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[13.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[13.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[13.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[13.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[13.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[13.848s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2' for CMake module files
+[13.853s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2' for CMake config files
+[13.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[13.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[13.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[13.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[13.877s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/lib'
+[13.877s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/bin'
+[13.884s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[13.886s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/lib/python3.8/site-packages'
+[13.887s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/bin'
+[13.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[13.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[13.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[13.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[13.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[13.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[13.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/build/puzzlebot_ros:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_agent -- -j4 -l4
+[14.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/build/puzzlebot_ros:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_agent
+[14.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[14.102s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent' for CMake module files
+[14.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv/lib:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/puzzlebot/ros2_ws/build/puzzlebot_ros:/home/puzzlebot/ros2_ws/install/puzzlebot_ros/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:/opt/ros/humble/lib/python3.8/site-packages /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_agent
+[14.107s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent' for CMake config files
+[14.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[14.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[14.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[14.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[14.116s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib'
+[14.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[14.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[14.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[14.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[14.122s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/bin'
+[14.123s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[14.124s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib/python3.8/site-packages'
+[14.124s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/bin'
+[14.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[14.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[14.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[14.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[14.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[14.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[14.262s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[14.264s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent' for CMake module files
+[14.267s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent' for CMake config files
+[14.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[14.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[14.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[14.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[14.277s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib'
+[14.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[14.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[14.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[14.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[14.285s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/bin'
+[14.286s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[14.287s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/lib/python3.8/site-packages'
+[14.288s] Level 1:colcon.colcon_core.environment:checking '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/bin'
+[14.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[14.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[14.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[14.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[14.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[14.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[14.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.308s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.335s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.386s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/puzzlebot/ros2_packages_ws/install/local_setup.ps1'
+[14.393s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/puzzlebot/ros2_packages_ws/install/_local_setup_util_ps1.py'
+[14.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/puzzlebot/ros2_packages_ws/install/setup.ps1'
+[14.407s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/puzzlebot/ros2_packages_ws/install/local_setup.sh'
+[14.412s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/puzzlebot/ros2_packages_ws/install/_local_setup_util_sh.py'
+[14.414s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/puzzlebot/ros2_packages_ws/install/setup.sh'
+[14.423s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/puzzlebot/ros2_packages_ws/install/local_setup.bash'
+[14.426s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/puzzlebot/ros2_packages_ws/install/setup.bash'
+[14.434s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/puzzlebot/ros2_packages_ws/install/local_setup.zsh'
+[14.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/puzzlebot/ros2_packages_ws/install/setup.zsh'

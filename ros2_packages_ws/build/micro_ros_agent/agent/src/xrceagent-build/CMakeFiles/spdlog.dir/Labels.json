@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog"
+		},
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog.rule"
+		},
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/spdlog-complete.rule"
+		},
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-install.rule"
+		},
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-mkdir.rule"
+		},
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-download.rule"
+		},
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-update.rule"
+		},
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-patch.rule"
+		},
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-configure.rule"
+		},
+		{
+			"file" : "/home/puzzlebot/ros2_packages_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-stamp/spdlog-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog"
+		],
+		"name" : "spdlog"
+	}
+}

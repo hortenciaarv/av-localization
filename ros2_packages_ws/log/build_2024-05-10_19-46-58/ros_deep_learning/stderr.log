@@ -1,0 +1,32 @@
+detected ROS_DISTRO=ROS_HUMBLE
+CMake Warning at CMakeLists.txt:19 (find_package):
+  Could not find a configuration file for package "VPI" that is compatible
+  with requested version "2.0".
+
+  The following configuration files were considered but not accepted:
+
+    /usr/share/vpi1/cmake/vpi-config.cmake, version: 1.2.3
+
+
+
+detected ROS2 (ament_cmake)
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_detectnet.cpp:[m[K In function ‘[01m[Kbool publish_overlay(detectNet::Detection*, int)[m[K’:
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_detectnet.cpp:83:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_imagenet.cpp:[m[K In function ‘[01m[Kbool publish_overlay(int, float)[m[K’:
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_imagenet.cpp:93:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_segnet.cpp:[m[K In function ‘[01m[Kbool publish_overlay(uint32_t, uint32_t)[m[K’:
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_segnet.cpp:80:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_segnet.cpp:[m[K In function ‘[01m[Kbool publish_mask_color(uint32_t, uint32_t)[m[K’:
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_segnet.cpp:105:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_segnet.cpp:[m[K In function ‘[01m[Kbool publish_mask_class(uint32_t, uint32_t)[m[K’:
+[01m[K/home/puzzlebot/ros2_packages_ws/src/ros_deep_learning/src/node_segnet.cpp:130:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K

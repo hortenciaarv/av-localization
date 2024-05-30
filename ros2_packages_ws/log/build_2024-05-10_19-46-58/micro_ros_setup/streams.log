@@ -1,0 +1,212 @@
+[0.065s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake /home/puzzlebot/ros2_packages_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup
+[0.360s] -- The C compiler identification is GNU 8.4.0
+[0.590s] -- The CXX compiler identification is GNU 8.4.0
+[0.615s] -- Check for working C compiler: /usr/bin/cc
+[1.181s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.186s] -- Detecting C compiler ABI info
+[1.914s] -- Detecting C compiler ABI info - done
+[2.011s] -- Detecting C compile features
+[2.012s] -- Detecting C compile features - done
+[2.024s] -- Check for working CXX compiler: /usr/bin/c++
+[2.810s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.815s] -- Detecting CXX compiler ABI info
+[3.630s] -- Detecting CXX compiler ABI info - done
+[3.732s] -- Detecting CXX compile features
+[3.750s] -- Detecting CXX compile features - done
+[3.772s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.067s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[7.337s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.606s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.931s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.969s] -- Added test 'lint_cmake' to check CMake code style
+[8.996s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.138s] -- Added test 'xmllint' to check XML markup files
+[9.185s] -- Configuring done
+[9.198s] -- Generating done
+[9.202s] -- Build files have been written to: /home/puzzlebot/ros2_packages_ws/build/micro_ros_setup
+[9.237s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake /home/puzzlebot/ros2_packages_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup
+[9.242s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_setup -- -j4 -l4
+[9.744s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_setup -- -j4 -l4
+[10.522s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_setup
+[10.726s] -- Install configuration: ""
+[10.729s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[10.752s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[10.772s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[10.783s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[10.785s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[10.788s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[10.790s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[10.792s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[10.793s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[10.795s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[10.796s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[10.800s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[10.801s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[10.801s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[10.807s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[10.808s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config
+[10.810s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib
+[10.810s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[10.813s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic
+[10.814s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[10.824s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[10.825s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[10.826s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[10.828s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[10.829s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[10.831s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[10.832s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[10.834s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[10.836s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra
+[10.836s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[10.837s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[10.839s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[10.841s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[10.841s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[10.843s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[10.852s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[10.852s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[10.853s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[10.856s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[10.874s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[10.876s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[10.876s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/utils.sh
+[10.877s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos
+[10.877s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[10.878s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[10.878s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[10.879s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[10.879s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[10.879s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[10.880s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[10.891s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[10.893s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[10.894s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[10.895s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[10.896s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[10.904s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[10.905s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[10.906s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[10.911s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[10.912s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[10.912s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[10.913s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[10.914s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[10.914s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[10.915s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[10.916s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[10.916s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[10.918s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[10.919s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[10.919s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[10.919s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[10.920s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[10.939s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[10.940s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[10.940s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[10.941s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[10.941s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[10.942s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[10.943s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[10.943s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[10.944s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[10.944s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[10.945s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[10.957s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[10.959s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[10.960s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[10.960s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[10.961s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[10.962s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[10.963s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32
+[10.963s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[10.964s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[10.966s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[10.975s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[10.980s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[10.980s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[10.981s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[10.982s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[10.982s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[10.983s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[10.984s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[10.992s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[10.994s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[10.994s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[10.995s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[10.996s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[10.996s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[10.997s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[10.998s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[11.012s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[11.012s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed
+[11.027s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[11.028s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic
+[11.034s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[11.035s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[11.035s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[11.036s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[11.036s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[11.036s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[11.037s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[11.037s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[11.038s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[11.047s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android
+[11.058s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[11.058s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android/generic
+[11.059s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[11.059s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[11.060s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[11.060s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[11.061s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[11.061s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[11.062s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[11.062s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[11.063s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host
+[11.063s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[11.064s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[11.064s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/generic
+[11.064s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[11.065s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[11.083s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[11.086s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[11.087s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[11.087s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[11.088s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[11.088s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[11.088s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr
+[11.089s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[11.089s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic
+[11.090s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[11.099s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[11.100s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[11.100s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[11.101s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[11.101s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[11.101s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[11.102s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[11.110s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[11.116s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[11.116s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[11.117s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian
+[11.117s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[11.117s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic
+[11.118s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[11.128s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[11.128s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[11.129s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[11.129s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[11.130s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[11.130s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[11.131s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[11.131s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[11.143s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[11.143s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[11.144s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[11.144s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[11.144s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[11.145s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[11.145s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[11.183s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[11.183s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[11.185s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_setup

@@ -1,0 +1,180 @@
+[0.146s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs -- -j4 -l4
+[0.540s] [ 10%] Built target micro_ros_msgs__rosidl_generator_c
+[0.624s] [ 12%] Built target micro_ros_msgs__cpp
+[0.770s] [ 12%] Built target ament_cmake_python_copy_micro_ros_msgs
+[0.875s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.915s] [ 42%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.918s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_c
+[1.054s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.118s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.149s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[1.324s] [ 76%] Built target micro_ros_msgs
+[1.519s] [ 78%] Built target micro_ros_msgs__py
+[1.879s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[2.164s] [ 91%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[2.241s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[2.256s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.601s] running egg_info
+[2.602s] writing micro_ros_msgs.egg-info/PKG-INFO
+[2.602s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[2.603s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[2.804s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.807s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.946s] [100%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[4.378s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs -- -j4 -l4
+[6.166s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs
+[6.230s] -- Install configuration: ""
+[6.233s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[6.236s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.240s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.243s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.246s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[6.248s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.250s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[6.252s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[6.254s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[6.257s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[6.258s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[6.258s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[6.259s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[6.260s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[6.266s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[6.267s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[6.267s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[6.269s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[6.270s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[6.271s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[6.274s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[6.275s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[6.277s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[6.279s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.285s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.287s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.287s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.288s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[6.290s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[6.290s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[6.294s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[6.297s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.299s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.301s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.301s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.310s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[6.310s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[6.316s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[6.317s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[6.317s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[6.318s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[6.318s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[6.318s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[6.321s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.330s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.331s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[6.331s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[6.332s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.343s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[6.344s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[6.344s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[6.345s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[6.345s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[6.346s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[6.346s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[6.347s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[6.347s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[6.347s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[6.348s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.368s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.377s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.378s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.378s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[6.378s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[6.379s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[6.379s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[6.380s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.380s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[6.381s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[6.381s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[6.391s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[6.391s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[6.392s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[6.392s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[6.394s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[6.394s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[6.395s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[6.395s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[6.396s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[6.403s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[6.404s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs-3.0.0-py3.8.egg-info
+[6.404s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs-3.0.0-py3.8.egg-info/top_level.txt
+[6.405s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs-3.0.0-py3.8.egg-info/PKG-INFO
+[6.405s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs-3.0.0-py3.8.egg-info/SOURCES.txt
+[6.406s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs-3.0.0-py3.8.egg-info/dependency_links.txt
+[6.406s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs
+[6.407s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[6.407s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py
+[6.408s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg
+[6.408s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph_s.c
+[6.417s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity.py
+[6.417s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/__init__.py
+[6.418s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node_s.c
+[6.418s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity_s.c
+[6.420s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node.py
+[6.421s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph.py
+[6.422s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.423s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.423s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.424s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[6.424s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.425s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[6.736s] Listing '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs'...
+[6.737s] Listing '/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg'...
+[6.767s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.771s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[6.775s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.777s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[6.779s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[6.780s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[6.782s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[6.785s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[6.787s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[6.788s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[6.789s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[6.789s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[6.790s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[6.790s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[6.791s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[6.791s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[6.803s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[6.803s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[6.804s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[6.804s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[6.817s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[6.817s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[6.818s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[6.818s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.819s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.819s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.819s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.820s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.820s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[6.821s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.821s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[6.822s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.823s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.823s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.825s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.826s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[6.827s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.828s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[6.828s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.829s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[6.829s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.830s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.841s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.842s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.843s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.844s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.845s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[6.846s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[6.847s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[6.849s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs

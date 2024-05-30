@@ -1,0 +1,60 @@
+[3.782s] Invoking command in '/home/puzzlebot/ros2_packages_ws/src/localization': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data
+[5.122s] running egg_info
+[5.124s] creating ../../build/localization/localization.egg-info
+[5.126s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[5.127s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[5.128s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[5.129s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[5.130s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[5.132s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[5.318s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[5.322s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[5.324s] running build
+[5.324s] running build_py
+[5.326s] creating /home/puzzlebot/ros2_packages_ws/build/localization/build
+[5.327s] creating /home/puzzlebot/ros2_packages_ws/build/localization/build/lib
+[5.328s] creating /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[5.329s] copying localization/__init__.py -> /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[5.331s] copying localization/kinematic_model.py -> /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[5.335s] copying localization/controller.py -> /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[5.337s] copying localization/localization.py -> /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[5.339s] copying localization/joint_states.py -> /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[5.341s] copying localization/transform.py -> /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[5.344s] running install
+[5.349s] running install_lib
+[5.355s] creating /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[5.356s] copying /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization/__init__.py -> /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[5.357s] copying /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization/kinematic_model.py -> /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[5.359s] copying /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization/controller.py -> /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[5.360s] copying /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization/localization.py -> /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[5.361s] copying /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization/joint_states.py -> /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[5.362s] copying /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization/transform.py -> /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[5.365s] byte-compiling /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/__init__.py to __init__.cpython-38.pyc
+[5.371s] byte-compiling /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/kinematic_model.py to kinematic_model.cpython-38.pyc
+[5.374s] byte-compiling /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/controller.py to controller.cpython-38.pyc
+[5.378s] byte-compiling /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/localization.py to localization.cpython-38.pyc
+[5.384s] byte-compiling /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/joint_states.py to joint_states.cpython-38.pyc
+[5.386s] byte-compiling /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/transform.py to transform.cpython-38.pyc
+[5.388s] running install_data
+[5.389s] creating /home/puzzlebot/ros2_packages_ws/install/localization/share/ament_index
+[5.390s] creating /home/puzzlebot/ros2_packages_ws/install/localization/share/ament_index/resource_index
+[5.392s] creating /home/puzzlebot/ros2_packages_ws/install/localization/share/ament_index/resource_index/packages
+[5.393s] copying resource/localization -> /home/puzzlebot/ros2_packages_ws/install/localization/share/ament_index/resource_index/packages
+[5.394s] copying package.xml -> /home/puzzlebot/ros2_packages_ws/install/localization/share/localization
+[5.395s] creating /home/puzzlebot/ros2_packages_ws/install/localization/share/localization/launch
+[5.396s] copying launch/puzzlebot_rviz.launch.py -> /home/puzzlebot/ros2_packages_ws/install/localization/share/localization/launch
+[5.399s] copying urdf/puzzlebot_jetson_ed_urdf.urdf -> /home/puzzlebot/ros2_packages_ws/install/localization/share/localization
+[5.411s] creating /home/puzzlebot/ros2_packages_ws/install/localization/share/localization/meshes
+[5.411s] copying meshes/MCR2_1000_13_Chassis.stl -> /home/puzzlebot/ros2_packages_ws/install/localization/share/localization/meshes
+[5.518s] copying meshes/PuzzleBot.stl -> /home/puzzlebot/ros2_packages_ws/install/localization/share/localization/meshes
+[5.620s] copying meshes/MCR2_1000_1_1_Wheel_Coupler_2.stl -> /home/puzzlebot/ros2_packages_ws/install/localization/share/localization/meshes
+[5.629s] copying meshes/camera.stl -> /home/puzzlebot/ros2_packages_ws/install/localization/share/localization/meshes
+[5.653s] running install_egg_info
+[5.663s] Copying ../../build/localization/localization.egg-info to /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization-0.0.0-py3.8.egg-info
+[5.668s] running install_scripts
+[5.747s] Installing controller script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[5.748s] Installing kinematic_model script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[5.748s] Installing localization script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[5.749s] Installing transform script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[5.750s] writing list of installed files to '/home/puzzlebot/ros2_packages_ws/build/localization/install.log'
+[5.869s] Invoked command in '/home/puzzlebot/ros2_packages_ws/src/localization' returned '0': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data

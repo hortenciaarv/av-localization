@@ -1,0 +1,33 @@
+[4.765s] Invoking command in '/home/puzzlebot/ros2_packages_ws/src/localization': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data
+[6.211s] running egg_info
+[6.216s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[6.221s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[6.221s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[6.246s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[6.247s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[6.619s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[6.629s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[6.632s] running build
+[6.633s] running build_py
+[6.641s] copying localization/aruco_controller.py -> /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[6.647s] running install
+[6.665s] running install_lib
+[6.681s] copying /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization/aruco_controller.py -> /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[6.698s] byte-compiling /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/aruco_controller.py to aruco_controller.cpython-38.pyc
+[6.717s] running install_data
+[6.719s] running install_egg_info
+[6.731s] removing '/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization-0.0.0-py3.8.egg-info' (and everything under it)
+[6.744s] Copying ../../build/localization/localization.egg-info to /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization-0.0.0-py3.8.egg-info
+[6.762s] running install_scripts
+[6.863s] Installing aruco_controller script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.864s] Installing bug0 script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.864s] Installing controller script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.865s] Installing coordinate_transform script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.866s] Installing joint_state script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.866s] Installing kinematic_model script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.867s] Installing localization script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.869s] Installing test_lidar script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.872s] Installing to_goal script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.873s] Installing to_goal_bug_2 script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.874s] writing list of installed files to '/home/puzzlebot/ros2_packages_ws/build/localization/install.log'
+[6.966s] Invoked command in '/home/puzzlebot/ros2_packages_ws/src/localization' returned '0': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data

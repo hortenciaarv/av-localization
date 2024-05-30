@@ -1,0 +1,53 @@
+[0.101s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/sllidar_ros2 -- -j4 -l4
+[1.291s] [ 90%] Built target sllidar_node
+[1.762s] [100%] Built target sllidar_client
+[1.846s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/sllidar_ros2 -- -j4 -l4
+[3.129s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/sllidar_ros2
+[3.212s] -- Install configuration: ""
+[3.213s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[3.214s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[3.214s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[3.215s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[3.215s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[3.216s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[3.216s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[3.217s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[3.217s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[3.218s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[3.219s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[3.221s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[3.222s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[3.223s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[3.223s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[3.224s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[3.232s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[3.233s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[3.236s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[3.236s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[3.237s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[3.237s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[3.238s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[3.238s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[3.239s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[3.239s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[3.240s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[3.266s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[3.267s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[3.300s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[3.301s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[3.302s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[3.302s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[3.303s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[3.304s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[3.304s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[3.305s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[3.305s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[3.306s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[3.306s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[3.307s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[3.310s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.311s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.314s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[3.316s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[3.316s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[3.318s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/sllidar_ros2

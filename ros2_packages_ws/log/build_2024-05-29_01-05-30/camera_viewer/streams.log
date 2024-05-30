@@ -1,0 +1,21 @@
+[8.708s] Invoking command in '/home/puzzlebot/ros2_packages_ws/src/camera_viewer': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/camera_viewer/prefix_override:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/puzzlebot/ros2_packages_ws/build/camera_viewer/build install --record /home/puzzlebot/ros2_packages_ws/build/camera_viewer/install.log --single-version-externally-managed install_data
+[12.416s] running egg_info
+[12.418s] writing ../../build/camera_viewer/camera_viewer.egg-info/PKG-INFO
+[12.420s] writing dependency_links to ../../build/camera_viewer/camera_viewer.egg-info/dependency_links.txt
+[12.423s] writing entry points to ../../build/camera_viewer/camera_viewer.egg-info/entry_points.txt
+[12.427s] writing requirements to ../../build/camera_viewer/camera_viewer.egg-info/requires.txt
+[12.429s] writing top-level names to ../../build/camera_viewer/camera_viewer.egg-info/top_level.txt
+[12.680s] reading manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+[12.689s] writing manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+[12.692s] running build
+[12.693s] running build_py
+[12.693s] running install
+[12.700s] running install_lib
+[12.714s] running install_data
+[12.717s] running install_egg_info
+[12.738s] removing '/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages/camera_viewer-0.0.0-py3.8.egg-info' (and everything under it)
+[12.739s] Copying ../../build/camera_viewer/camera_viewer.egg-info to /home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages/camera_viewer-0.0.0-py3.8.egg-info
+[12.743s] running install_scripts
+[12.859s] Installing camera_viewer script to /home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/camera_viewer
+[12.860s] writing list of installed files to '/home/puzzlebot/ros2_packages_ws/build/camera_viewer/install.log'
+[13.003s] Invoked command in '/home/puzzlebot/ros2_packages_ws/src/camera_viewer' returned '0': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/camera_viewer/prefix_override:/home/puzzlebot/ros2_packages_ws/install/camera_viewer/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/puzzlebot/ros2_packages_ws/build/camera_viewer/build install --record /home/puzzlebot/ros2_packages_ws/build/camera_viewer/install.log --single-version-externally-managed install_data

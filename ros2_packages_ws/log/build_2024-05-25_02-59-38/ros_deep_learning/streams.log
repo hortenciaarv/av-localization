@@ -1,0 +1,43 @@
+[0.188s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/ros_deep_learning -- -j4 -l4
+[1.117s] [ 20%] Built target segnet
+[1.181s] [ 40%] Built target video_source
+[1.219s] [ 60%] Built target detectnet
+[1.287s] [ 80%] Built target imagenet
+[1.634s] [100%] Built target video_output
+[1.795s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/ros_deep_learning -- -j4 -l4
+[2.538s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/ros_deep_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/ros_deep_learning
+[2.656s] -- Install configuration: ""
+[2.665s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+[2.668s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+[2.671s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/segnet
+[2.677s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/video_source
+[2.679s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/video_output
+[2.683s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch
+[2.686s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+[2.688s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+[2.689s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+[2.691s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+[2.691s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+[2.692s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+[2.692s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+[2.693s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+[2.693s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+[2.694s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+[2.694s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+[2.695s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+[2.695s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+[2.695s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+[2.696s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+[2.697s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+[2.697s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+[2.698s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+[2.712s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+[2.714s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+[2.715s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+[2.715s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+[2.716s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+[2.716s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+[2.717s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+[2.717s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+[2.718s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.xml
+[2.751s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/ros_deep_learning

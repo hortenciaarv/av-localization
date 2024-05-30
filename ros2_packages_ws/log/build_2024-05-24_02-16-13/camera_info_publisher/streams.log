@@ -1,0 +1,24 @@
+[0.194s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/camera_info_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/camera_info_publisher -- -j4 -l4
+[0.945s] [100%] Built target camera_info_publisher
+[1.742s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/camera_info_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/ros2_packages_ws/build/camera_info_publisher -- -j4 -l4
+[2.326s] Invoking command in '/home/puzzlebot/ros2_packages_ws/build/camera_info_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/camera_info_publisher
+[2.412s] -- Install configuration: ""
+[2.415s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/lib/camera_info_publisher/camera_info_publisher
+[2.417s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher//launch
+[2.419s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher//launch/camera_info.launch.py
+[2.421s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/ament_index/resource_index/package_run_dependencies/camera_info_publisher
+[2.423s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/ament_index/resource_index/parent_prefix_path/camera_info_publisher
+[2.424s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/environment/ament_prefix_path.sh
+[2.424s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/environment/ament_prefix_path.dsv
+[2.425s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/environment/path.sh
+[2.425s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/environment/path.dsv
+[2.426s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/local_setup.bash
+[2.449s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/local_setup.sh
+[2.450s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/local_setup.zsh
+[2.450s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/local_setup.dsv
+[2.451s] -- Installing: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.dsv
+[2.452s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/ament_index/resource_index/packages/camera_info_publisher
+[2.453s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/cmake/camera_info_publisherConfig.cmake
+[2.453s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/cmake/camera_info_publisherConfig-version.cmake
+[2.454s] -- Up-to-date: /home/puzzlebot/ros2_packages_ws/install/camera_info_publisher/share/camera_info_publisher/package.xml
+[2.468s] Invoked command in '/home/puzzlebot/ros2_packages_ws/build/camera_info_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/ros2_packages_ws/build/camera_info_publisher

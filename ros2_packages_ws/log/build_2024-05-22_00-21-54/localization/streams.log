@@ -1,0 +1,34 @@
+[4.044s] Invoking command in '/home/puzzlebot/ros2_packages_ws/src/localization': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data
+[6.158s] running egg_info
+[6.164s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[6.166s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[6.168s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[6.173s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[6.174s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[6.420s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[6.428s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[6.431s] running build
+[6.431s] running build_py
+[6.433s] copying localization/to_goal.py -> /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[6.434s] copying localization/class_bug0.py -> /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization
+[6.439s] running install
+[6.442s] running install_lib
+[6.447s] copying /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization/to_goal.py -> /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[6.448s] copying /home/puzzlebot/ros2_packages_ws/build/localization/build/lib/localization/class_bug0.py -> /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[6.452s] byte-compiling /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/to_goal.py to to_goal.cpython-38.pyc
+[6.462s] byte-compiling /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/class_bug0.py to class_bug0.cpython-38.pyc
+[6.468s] running install_data
+[6.470s] running install_egg_info
+[6.482s] removing '/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization-0.0.0-py3.8.egg-info' (and everything under it)
+[6.485s] Copying ../../build/localization/localization.egg-info to /home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization-0.0.0-py3.8.egg-info
+[6.490s] running install_scripts
+[6.601s] Installing controller script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.608s] Installing coordinate_transform script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.611s] Installing joint_state script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.614s] Installing kinematic_model script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.617s] Installing localization script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.621s] Installing test_lidar script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.624s] Installing to_goal script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.628s] Installing to_goal_bug_2 script to /home/puzzlebot/ros2_packages_ws/install/localization/lib/localization
+[6.628s] writing list of installed files to '/home/puzzlebot/ros2_packages_ws/build/localization/install.log'
+[6.793s] Invoked command in '/home/puzzlebot/ros2_packages_ws/src/localization' returned '0': PYTHONPATH=/home/puzzlebot/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data
