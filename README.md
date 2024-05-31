@@ -1,4 +1,4 @@
-# ROS2 and ROS1 Activities Repository
+# ROS2 and ROS1 Repository
 
 Welcome to our last repository for the Puzzlebot project!! :)
 
