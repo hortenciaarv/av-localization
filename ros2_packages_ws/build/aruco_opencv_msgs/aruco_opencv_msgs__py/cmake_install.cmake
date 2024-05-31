@@ -1,8 +1,8 @@
-# Install script for directory: /home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs/aruco_opencv_msgs__py
+# Install script for directory: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv_msgs/aruco_opencv_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

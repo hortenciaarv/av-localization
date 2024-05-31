@@ -1,8 +1,8 @@
-# Install script for directory: /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs/micro_ros_msgs__py
+# Install script for directory: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_msgs/micro_ros_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

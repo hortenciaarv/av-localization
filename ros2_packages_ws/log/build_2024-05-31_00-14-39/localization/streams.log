@@ -1,0 +1,99 @@
+[5.477s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/localization': PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data
+[8.223s] running egg_info
+[8.225s] creating ../../build/localization/localization.egg-info
+[8.226s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[8.227s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[8.228s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[8.228s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[8.229s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[8.238s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[8.488s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[8.500s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[8.502s] running build
+[8.503s] running build_py
+[8.505s] creating /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build
+[8.506s] creating /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib
+[8.507s] creating /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.508s] copying localization/class_gripper.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.514s] copying localization/to_goal.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.518s] copying localization/class_bug0.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.522s] copying localization/__init__.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.523s] copying localization/kinematic_model.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.530s] copying localization/coordinate_transform.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.537s] copying localization/to_goal_aruco.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.542s] copying localization/bug0.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.543s] copying localization/test_lidar.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.544s] copying localization/transform_listener.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.547s] copying localization/controller.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.548s] copying localization/aruco_controller.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.551s] copying localization/localization.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.552s] copying localization/joint_states.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.561s] copying localization/gpio.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.562s] copying localization/class_controller.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[8.564s] running install
+[8.568s] running install_lib
+[8.573s] creating /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.578s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/class_gripper.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.581s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/to_goal.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.590s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/class_bug0.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.591s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/__init__.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.591s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/kinematic_model.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.592s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/coordinate_transform.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.592s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/to_goal_aruco.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.592s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/bug0.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.593s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/test_lidar.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.594s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/transform_listener.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.594s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/controller.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.595s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/aruco_controller.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.595s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/localization.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.596s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/joint_states.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.596s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/gpio.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.597s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/class_controller.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[8.600s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/class_gripper.py to class_gripper.cpython-38.pyc
+[8.607s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/to_goal.py to to_goal.cpython-38.pyc
+[8.627s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/class_bug0.py to class_bug0.cpython-38.pyc
+[8.629s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/__init__.py to __init__.cpython-38.pyc
+[8.629s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/kinematic_model.py to kinematic_model.cpython-38.pyc
+[8.632s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/coordinate_transform.py to coordinate_transform.cpython-38.pyc
+[8.636s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/to_goal_aruco.py to to_goal_aruco.cpython-38.pyc
+[8.654s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/bug0.py to bug0.cpython-38.pyc
+[8.659s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/test_lidar.py to test_lidar.cpython-38.pyc
+[8.673s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/transform_listener.py to transform_listener.cpython-38.pyc
+[8.677s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/controller.py to controller.cpython-38.pyc
+[8.680s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/aruco_controller.py to aruco_controller.cpython-38.pyc
+[8.697s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/localization.py to localization.cpython-38.pyc
+[8.703s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/joint_states.py to joint_states.cpython-38.pyc
+[8.705s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/gpio.py to gpio.cpython-38.pyc
+[8.711s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/class_controller.py to class_controller.cpython-38.pyc
+[8.735s] running install_data
+[8.735s] creating /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/ament_index
+[8.736s] creating /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/ament_index/resource_index
+[8.736s] creating /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/ament_index/resource_index/packages
+[8.737s] copying resource/localization -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/ament_index/resource_index/packages
+[8.737s] copying package.xml -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization
+[8.738s] creating /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization/launch
+[8.739s] copying launch/puzzlebot_rviz.launch.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization/launch
+[8.740s] copying launch/puzzlebot_sim.launch.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization/launch
+[8.741s] copying urdf/puzzlebot_jetson_ed_urdf.urdf -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization
+[8.742s] creating /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization/meshes
+[8.743s] copying meshes/MCR2_1000_13_Chassis.stl -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization/meshes
+[8.849s] copying meshes/PuzzleBot.stl -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization/meshes
+[8.955s] copying meshes/MCR2_1000_1_1_Wheel_Coupler_2.stl -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization/meshes
+[8.972s] copying meshes/camera.stl -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/share/localization/meshes
+[8.991s] running install_egg_info
+[9.005s] Copying ../../build/localization/localization.egg-info to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization-0.0.0-py3.8.egg-info
+[9.026s] running install_scripts
+[9.196s] Installing aruco_controller script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.198s] Installing bug0 script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.199s] Installing controller script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.205s] Installing coordinate_transform script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.205s] Installing joint_state script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.206s] Installing kinematic_model script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.206s] Installing localization script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.207s] Installing test_lidar script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.207s] Installing to_goal script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.208s] Installing to_goal_aruco script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.208s] Installing to_goal_bug_2 script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.209s] Installing transform_listener script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[9.213s] writing list of installed files to '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/install.log'
+[9.449s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/localization' returned '0': PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data

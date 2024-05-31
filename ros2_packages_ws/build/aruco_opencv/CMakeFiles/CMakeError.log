@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp
+Change Dir: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b8a26/fast && /usr/bin/make -f CMakeFiles/cmTC_b8a26.dir/build.make CMakeFiles/cmTC_b8a26.dir/build
-make[1]: Entering directory '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b8a26.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_b8a26.dir/src.c.o   -c /home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_b8a26
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8a26.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_b8a26.dir/src.c.o  -o cmTC_b8a26 
-/usr/bin/ld: CMakeFiles/cmTC_b8a26.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_d79fd/fast && /usr/bin/make -f CMakeFiles/cmTC_d79fd.dir/build.make CMakeFiles/cmTC_d79fd.dir/build
+make[1]: Entering directory '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d79fd.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d79fd.dir/src.c.o   -c /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d79fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d79fd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_d79fd.dir/src.c.o  -o cmTC_d79fd 
+/usr/bin/ld: CMakeFiles/cmTC_d79fd.dir/src.c.o: in function `main':
 src.c:(.text+0x48): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x50): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5c): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_b8a26.dir/build.make:87: cmTC_b8a26] Error 1
-make[1]: Leaving directory '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_b8a26/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_d79fd.dir/build.make:87: cmTC_d79fd] Error 1
+make[1]: Leaving directory '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d79fd/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp
+Change Dir: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a10e9/fast && /usr/bin/make -f CMakeFiles/cmTC_a10e9.dir/build.make CMakeFiles/cmTC_a10e9.dir/build
-make[1]: Entering directory '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a10e9.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a10e9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a10e9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a10e9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a10e9.dir/CheckFunctionExists.c.o  -o cmTC_a10e9  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_6f8af/fast && /usr/bin/make -f CMakeFiles/cmTC_6f8af.dir/build.make CMakeFiles/cmTC_6f8af.dir/build
+make[1]: Entering directory '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f8af.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6f8af.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f8af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f8af.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6f8af.dir/CheckFunctionExists.c.o  -o cmTC_6f8af  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a10e9.dir/build.make:87: cmTC_a10e9] Error 1
-make[1]: Leaving directory '/home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_a10e9/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_6f8af.dir/build.make:87: cmTC_6f8af] Error 1
+make[1]: Leaving directory '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6f8af/fast] Error 2
 
 
 

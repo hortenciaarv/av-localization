@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/puzzlebot/ros2_packages_ws/src/uros/micro_ros_msgs
+CMAKE_SOURCE_DIR = /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/uros/micro_ros_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs
+CMAKE_BINARY_DIR = /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_msgs
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs/CMakeFiles /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_msgs/CMakeFiles /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_msgs/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/puzzlebot/ros2_packages_ws/build/micro_ros_msgs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_msgs/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

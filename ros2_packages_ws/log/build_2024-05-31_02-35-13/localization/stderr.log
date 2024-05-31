@@ -1,0 +1,5 @@
+  File "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/to_goal_aruco.py", line 117
+    elif(i.marker_id == 0)
+                         ^
+SyntaxError: invalid syntax
+

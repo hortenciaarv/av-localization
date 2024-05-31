@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/puzzlebot/ros2_packages_ws/src/sllidar_ros2/src/sllidar_client.cpp
+/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/sllidar_ros2/src/sllidar_client.cpp
 rclcpp/rclcpp.hpp
-/home/puzzlebot/ros2_packages_ws/src/sllidar_ros2/src/rclcpp/rclcpp.hpp
+/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/sllidar_ros2/src/rclcpp/rclcpp.hpp
 sensor_msgs/msg/laser_scan.hpp
-/home/puzzlebot/ros2_packages_ws/src/sllidar_ros2/src/sensor_msgs/msg/laser_scan.hpp
+/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/sllidar_ros2/src/sensor_msgs/msg/laser_scan.hpp
 math.h
 -
 

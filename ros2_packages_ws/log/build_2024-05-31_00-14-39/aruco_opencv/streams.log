@@ -1,0 +1,107 @@
+[0.131s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv': AMENT_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv -DCMAKE_INSTALL_PREFIX=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv
+[0.663s] -- The C compiler identification is GNU 8.4.0
+[0.984s] -- The CXX compiler identification is GNU 8.4.0
+[1.020s] -- Check for working C compiler: /usr/bin/cc
+[1.673s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.679s] -- Detecting C compiler ABI info
+[2.306s] -- Detecting C compiler ABI info - done
+[2.427s] -- Detecting C compile features
+[2.428s] -- Detecting C compile features - done
+[2.456s] -- Check for working CXX compiler: /usr/bin/c++
+[3.088s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.096s] -- Detecting CXX compiler ABI info
+[3.674s] -- Detecting CXX compiler ABI info - done
+[3.798s] -- Detecting CXX compile features
+[3.800s] -- Detecting CXX compile features - done
+[3.849s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.377s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[6.524s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[7.120s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.244s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.375s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.980s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.920s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.965s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.456s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.671s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.454s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.594s] -- Looking for pthread.h
+[12.114s] -- Looking for pthread.h - found
+[12.115s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.534s] -- Looking for pthread_create in pthreads
+[13.087s] -- Looking for pthread_create in pthreads - not found
+[13.088s] -- Looking for pthread_create in pthread
+[13.741s] -- Looking for pthread_create in pthread - found
+[13.752s] -- Found Threads: TRUE  
+[15.335s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[16.004s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[16.646s] -- Found aruco_opencv_msgs: 2.2.0 (/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/share/aruco_opencv_msgs/cmake)
+[17.702s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[18.709s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[21.830s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[21.985s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[21.990s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[21.991s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[22.136s] -- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+[22.508s] -- Found OpenCV: /usr (found suitable version "4.2.0", minimum required is "4.2.0") found components: aruco 
+[22.682s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.644s] -- Added test 'copyright' to check source files copyright and LICENSE
+[23.659s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.666s] -- Configured cpplint exclude dirs and/or files: 
+[23.683s] -- Added test 'lint_cmake' to check CMake code style
+[23.694s] -- Added test 'uncrustify' to check C / C++ code style
+[23.695s] -- Configured uncrustify additional arguments: 
+[23.702s] -- Added test 'xmllint' to check XML markup files
+[23.753s] -- Configuring done
+[24.077s] -- Generating done
+[24.130s] -- Build files have been written to: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv
+[24.216s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv -DCMAKE_INSTALL_PREFIX=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv
+[24.230s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv': AMENT_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv -- -j4 -l4
+[25.265s] [35m[1mScanning dependencies of target aruco_tracker_autostart[0m
+[25.835s] [ 14%] [32mBuilding CXX object CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.o[0m
+[78.579s] [ 28%] [32m[1mLinking CXX executable aruco_tracker_autostart[0m
+[80.112s] [ 28%] Built target aruco_tracker_autostart
+[80.255s] [35m[1mScanning dependencies of target aruco_opencv[0m
+[81.981s] [ 42%] [32mBuilding CXX object CMakeFiles/aruco_opencv.dir/src/aruco_tracker.cpp.o[0m
+[1272.283s] [ 57%] [32mBuilding CXX object CMakeFiles/aruco_opencv.dir/src/utils.cpp.o[0m
+[1288.878s] [ 71%] [32m[1mLinking CXX shared library libaruco_opencv.so[0m
+[1294.053s] [ 71%] Built target aruco_opencv
+[1294.118s] [35m[1mScanning dependencies of target aruco_tracker[0m
+[1294.362s] [ 85%] [32mBuilding CXX object CMakeFiles/aruco_tracker.dir/rclcpp_components/node_main_aruco_tracker.cpp.o[0m
+[1307.775s] [100%] [32m[1mLinking CXX executable aruco_tracker[0m
+[1308.410s] [100%] Built target aruco_tracker
+[1308.463s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv -- -j4 -l4
+[1308.588s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv': AMENT_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv
+[1308.620s] -- Install configuration: ""
+[1308.621s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker
+[1308.624s] -- Set runtime path of "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker" to ""
+[1308.624s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker_autostart
+[1308.631s] -- Set runtime path of "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/lib/aruco_opencv/aruco_tracker_autostart" to ""
+[1308.632s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/lib/libaruco_opencv.so
+[1308.690s] -- Set runtime path of "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/lib/libaruco_opencv.so" to ""
+[1308.691s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/config
+[1308.693s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/config/aruco_tracker.yaml
+[1308.694s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/config/board_descriptions.yaml
+[1308.695s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/launch
+[1308.696s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/launch/aruco_tracker.launch.xml
+[1308.697s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/lib/aruco_opencv/create_board
+[1308.698s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/lib/aruco_opencv/create_marker
+[1308.701s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/ament_index/resource_index/package_run_dependencies/aruco_opencv
+[1308.703s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/ament_index/resource_index/parent_prefix_path/aruco_opencv
+[1308.704s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/environment/ament_prefix_path.sh
+[1308.705s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/environment/ament_prefix_path.dsv
+[1308.706s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/environment/path.sh
+[1308.707s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/environment/path.dsv
+[1308.708s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/local_setup.bash
+[1308.709s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/local_setup.sh
+[1308.711s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/local_setup.zsh
+[1308.712s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/local_setup.dsv
+[1308.713s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.dsv
+[1308.714s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/ament_index/resource_index/packages/aruco_opencv
+[1308.716s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/ament_index/resource_index/rclcpp_components/aruco_opencv
+[1308.717s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/cmake/aruco_opencvConfig.cmake
+[1308.718s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/cmake/aruco_opencvConfig-version.cmake
+[1308.719s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv/share/aruco_opencv/package.xml
+[1308.729s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv' returned '0': AMENT_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_packages_ws/install/sllidar_ros2:/home/puzzlebot/ros2_packages_ws/install/ros_deep_learning:/home/puzzlebot/ros2_packages_ws/install/micro_ros_setup:/home/puzzlebot/ros2_packages_ws/install/micro_ros_agent:/home/puzzlebot/ros2_packages_ws/install/micro_ros_msgs:/home/puzzlebot/ros2_packages_ws/install/camera_info_publisher:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv:/home/puzzlebot/ros2_packages_ws/install/aruco_opencv_msgs:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble LD_LIBRARY_PATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/aruco_opencv_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv

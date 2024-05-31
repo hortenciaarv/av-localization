@@ -117,29 +117,28 @@ class FramePublisher(Node):
         self.tf_broadcaster.sendTransform(t)
 
     def handle_aruco(self, msg):
-        t = TransformStamped()
-
-        # Set the header and frame IDs
-        t.header.stamp = self.get_clock().now().to_msg()
-        t.header.frame_id = 'base_link'
-        t.child_frame_id = 'marker_6'
 
         # Assuming the laser is mounted at the origin of base_link, with no offset
         for i in msg.markers:
-            if (i.marker_id == 6):
-                t.transform.translation.x = i.pose.position.z
-                t.transform.translation.y = -i.pose.position.x
-                t.transform.translation.z = -i.pose.position.y
+            t = TransformStamped()
 
-                # Assuming the laser is mounted with no rotation relative to base_link
-                q = quaternion_from_euler(0, 0, 0)
-                t.transform.rotation.x = q[0]
-                t.transform.rotation.y = q[1]
-                t.transform.rotation.z = q[2]
-                t.transform.rotation.w = q[3]
+            # Set the header and frame IDs
+            t.header.stamp = self.get_clock().now().to_msg()
+            t.header.frame_id = 'base_link'
+            t.child_frame_id = 'marker_' + str(i.marker_id)
+            t.transform.translation.x = i.pose.position.z
+            t.transform.translation.y = -i.pose.position.x
+            t.transform.translation.z = -i.pose.position.y
 
-                # Send the transformation
-                self.tf_broadcaster.sendTransform(t)
+            # Assuming the laser is mounted with no rotation relative to base_link
+            q = quaternion_from_euler(0, 0, 0)
+            t.transform.rotation.x = q[0]
+            t.transform.rotation.y = q[1]
+            t.transform.rotation.z = q[2]
+            t.transform.rotation.w = q[3]
+
+            # Send the transformation
+            self.tf_broadcaster.sendTransform(t)
 
         
 def main():

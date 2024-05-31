@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/puzzlebot/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv
+CMAKE_SOURCE_DIR = /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/puzzlebot/ros2_packages_ws/build/aruco_opencv
+CMAKE_BINARY_DIR = /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aruco_tracker_autostart.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/aruco_tracker_autostart.dir/flags.make
 
 CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.o: CMakeFiles/aruco_tracker_autostart.dir/flags.make
 CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.o: rclcpp_components/node_main_aruco_tracker_autostart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.o -c /home/puzzlebot/ros2_packages_ws/build/aruco_opencv/rclcpp_components/node_main_aruco_tracker_autostart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.o -c /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/rclcpp_components/node_main_aruco_tracker_autostart.cpp
 
 CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/puzzlebot/ros2_packages_ws/build/aruco_opencv/rclcpp_components/node_main_aruco_tracker_autostart.cpp > CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/rclcpp_components/node_main_aruco_tracker_autostart.cpp > CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.i
 
 CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/puzzlebot/ros2_packages_ws/build/aruco_opencv/rclcpp_components/node_main_aruco_tracker_autostart.cpp -o CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/rclcpp_components/node_main_aruco_tracker_autostart.cpp -o CMakeFiles/aruco_tracker_autostart.dir/rclcpp_components/node_main_aruco_tracker_autostart.cpp.s
 
 # Object files for target aruco_tracker_autostart
 aruco_tracker_autostart_OBJECTS = \
@@ -145,7 +145,7 @@ aruco_tracker_autostart: /opt/ros/humble/lib/librosidl_runtime_c.so
 aruco_tracker_autostart: /opt/ros/humble/lib/librcutils.so
 aruco_tracker_autostart: /usr/lib/aarch64-linux-gnu/libpython3.8.so
 aruco_tracker_autostart: CMakeFiles/aruco_tracker_autostart.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aruco_tracker_autostart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aruco_tracker_autostart"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco_tracker_autostart.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/aruco_tracker_autostart.dir/clean:
 .PHONY : CMakeFiles/aruco_tracker_autostart.dir/clean
 
 CMakeFiles/aruco_tracker_autostart.dir/depend:
-	cd /home/puzzlebot/ros2_packages_ws/build/aruco_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/puzzlebot/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv /home/puzzlebot/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv /home/puzzlebot/ros2_packages_ws/build/aruco_opencv /home/puzzlebot/ros2_packages_ws/build/aruco_opencv /home/puzzlebot/ros2_packages_ws/build/aruco_opencv/CMakeFiles/aruco_tracker_autostart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/ros_aruco_opencv/aruco_opencv /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv/CMakeFiles/aruco_tracker_autostart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aruco_tracker_autostart.dir/depend
 

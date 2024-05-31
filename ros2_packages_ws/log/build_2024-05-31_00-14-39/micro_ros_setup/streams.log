@@ -1,0 +1,212 @@
+[0.156s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup
+[0.826s] -- The C compiler identification is GNU 8.4.0
+[1.280s] -- The CXX compiler identification is GNU 8.4.0
+[1.350s] -- Check for working C compiler: /usr/bin/cc
+[1.967s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.974s] -- Detecting C compiler ABI info
+[2.643s] -- Detecting C compiler ABI info - done
+[2.761s] -- Detecting C compile features
+[2.762s] -- Detecting C compile features - done
+[2.785s] -- Check for working CXX compiler: /usr/bin/c++
+[3.616s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.620s] -- Detecting CXX compiler ABI info
+[4.817s] -- Detecting CXX compiler ABI info - done
+[4.949s] -- Detecting CXX compile features
+[4.953s] -- Detecting CXX compile features - done
+[4.996s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.056s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[8.301s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.498s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.903s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.942s] -- Added test 'lint_cmake' to check CMake code style
+[9.966s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.131s] -- Added test 'xmllint' to check XML markup files
+[10.216s] -- Configuring done
+[10.274s] -- Generating done
+[10.288s] -- Build files have been written to: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup
+[10.338s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup
+[10.342s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup -- -j4 -l4
+[10.786s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup -- -j4 -l4
+[11.381s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup
+[11.544s] -- Install configuration: ""
+[11.545s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[11.549s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[11.550s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[11.557s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[11.561s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[11.562s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[11.562s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[11.569s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[11.581s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[11.583s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[11.585s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[11.587s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[11.588s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[11.590s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[11.592s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[11.594s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config
+[11.596s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib
+[11.598s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[11.607s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic
+[11.610s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[11.618s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[11.622s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[11.624s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[11.636s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[11.639s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[11.640s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[11.645s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[11.646s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[11.649s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra
+[11.649s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[11.650s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[11.651s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[11.653s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[11.654s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[11.656s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[11.658s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[11.658s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[11.666s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[11.669s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[11.673s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[11.698s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[11.699s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/utils.sh
+[11.716s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos
+[11.716s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[11.717s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[11.718s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[11.730s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[11.735s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[11.735s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[11.737s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[11.738s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[11.741s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[11.746s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[11.747s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[11.752s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[11.756s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[11.757s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[11.757s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[11.760s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[11.763s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[11.765s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[11.767s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[11.767s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[11.769s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[11.772s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[11.777s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[11.778s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[11.780s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[11.783s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[11.808s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[11.812s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[11.812s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[11.813s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[11.818s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[11.821s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[11.823s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[11.825s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[11.826s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[11.826s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[11.830s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[11.832s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[11.836s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[11.836s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[11.837s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[11.841s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[11.843s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[11.845s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[11.853s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[11.858s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[11.865s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32
+[11.866s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[11.876s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[11.882s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[11.893s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[11.895s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[11.895s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[11.900s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[11.902s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[11.908s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[11.910s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[11.911s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[11.915s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[11.917s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[11.919s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[11.920s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[11.923s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[11.926s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[11.928s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[11.936s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[11.944s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[11.963s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed
+[11.964s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[11.970s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic
+[11.971s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[11.996s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[12.010s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[12.060s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[12.094s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[12.118s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[12.190s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[12.216s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[12.241s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[12.268s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android
+[12.270s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[12.285s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android/generic
+[12.286s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[12.315s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[12.341s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[12.368s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[12.391s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[12.417s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[12.444s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[12.466s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[12.477s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host
+[12.478s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[12.489s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[12.498s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/generic
+[12.504s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[12.506s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[12.512s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[12.515s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[12.522s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[12.541s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[12.546s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[12.552s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[12.555s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr
+[12.558s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[12.561s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic
+[12.562s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[12.564s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[12.592s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[12.597s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[12.600s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[12.607s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[12.614s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[12.618s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[12.625s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[12.634s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[12.639s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[12.645s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian
+[12.646s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[12.652s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic
+[12.655s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[12.657s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[12.658s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[12.661s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[12.665s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[12.669s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[12.674s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[12.677s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[12.681s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[12.687s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[12.688s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[12.693s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[12.702s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[12.705s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[12.706s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[12.712s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[12.713s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[12.718s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[12.733s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/home/puzzlebot/ros2_packages_ws/install/localization:/home/puzzlebot/ros2_packages_ws/install/camera_viewer:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/micro_ros_setup

@@ -1,11 +1,11 @@
 {
   "package_name": "aruco_opencv_msgs",
-  "output_dir": "/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_generator_c/aruco_opencv_msgs",
+  "output_dir": "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_generator_c/aruco_opencv_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs:msg/ArucoDetection.idl",
-    "/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs:msg/BoardPose.idl",
-    "/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs:msg/MarkerPose.idl"
+    "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs:msg/ArucoDetection.idl",
+    "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs:msg/BoardPose.idl",
+    "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs:msg/MarkerPose.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -84,9 +84,9 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs/msg/ArucoDetection.idl",
-    "/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs/msg/BoardPose.idl",
-    "/home/puzzlebot/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs/msg/MarkerPose.idl",
+    "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs/msg/ArucoDetection.idl",
+    "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs/msg/BoardPose.idl",
+    "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/aruco_opencv_msgs/rosidl_adapter/aruco_opencv_msgs/msg/MarkerPose.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",
