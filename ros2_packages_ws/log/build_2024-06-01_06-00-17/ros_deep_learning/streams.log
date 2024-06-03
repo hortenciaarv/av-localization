@@ -1,0 +1,43 @@
+[0.221s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/ros_deep_learning': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/ros_deep_learning -- -j4 -l4
+[0.988s] [ 20%] Built target detectnet
+[1.069s] [ 40%] Built target segnet
+[1.089s] [ 60%] Built target imagenet
+[1.176s] [ 80%] Built target video_source
+[1.514s] [100%] Built target video_output
+[1.580s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/opt/ros/humble /usr/bin/cmake --build /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/ros_deep_learning -- -j4 -l4
+[1.981s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/ros_deep_learning': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/ros_deep_learning
+[2.057s] -- Install configuration: ""
+[2.063s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/imagenet
+[2.066s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/detectnet
+[2.071s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/segnet
+[2.075s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/video_source
+[2.080s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/lib/ros_deep_learning/video_output
+[2.081s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch
+[2.081s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros2.launch
+[2.084s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_output.ros1.launch
+[2.084s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros1.launch
+[2.085s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros1.launch
+[2.086s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros1.launch
+[2.087s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros2.launch
+[2.088s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/imagenet.ros2.launch
+[2.089s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros1.launch
+[2.089s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_viewer.ros1.launch
+[2.090s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/detectnet.ros2.launch
+[2.091s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/video_source.ros2.launch
+[2.091s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning//launch/segnet.ros2.launch
+[2.092s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ament_index/resource_index/package_run_dependencies/ros_deep_learning
+[2.093s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ament_index/resource_index/parent_prefix_path/ros_deep_learning
+[2.093s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.sh
+[2.094s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/environment/ament_prefix_path.dsv
+[2.094s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.sh
+[2.095s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/environment/path.dsv
+[2.095s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.bash
+[2.122s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.sh
+[2.125s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.zsh
+[2.125s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/local_setup.dsv
+[2.126s] -- Installing: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.dsv
+[2.127s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ament_index/resource_index/packages/ros_deep_learning
+[2.127s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig.cmake
+[2.128s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/cmake/ros_deep_learningConfig-version.cmake
+[2.129s] -- Up-to-date: /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/ros_deep_learning/share/ros_deep_learning/package.xml
+[2.170s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/ros_deep_learning' returned '0': CMAKE_PREFIX_PATH=/home/puzzlebot/ros2_ws/install/puzzlebot_ros:/opt/ros/humble /usr/bin/cmake --install /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/ros_deep_learning

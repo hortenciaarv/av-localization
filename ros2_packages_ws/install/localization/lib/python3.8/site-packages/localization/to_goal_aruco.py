@@ -6,6 +6,7 @@ import copy
 from geometry_msgs.msg import Pose
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist
+from std_msgs.msg import Bool
 from std_msgs.msg import Float32
 from sensor_msgs.msg import LaserScan
 from tf2_ros import TransformException
@@ -50,7 +51,7 @@ class ToGoalNode(Node):
 
         #set point
         self.x_d = 2.0
-        self.y_d = 0
+        self.y_d = 1.5
         self.theta_d = 0
 
         self.x_pose = 0
@@ -74,18 +75,20 @@ class ToGoalNode(Node):
         self.controller_flag = True
         self.state = 'find cube'
         self.lidar_flag = False
-        self.station_input = 'marker_0'
+        self.station_input = 'marker_1'
         self.aruco_cube = False
         self.aruco_station = False
+        self.prev_state = self.state
 
         # aruco controller
         self.controller_aruco = Controller()
         self.controller_aruco.angular_error_min = 0.35
-        self.controller_aruco.linear_error_min = 0.2
-        self.controller_aruco.kp_l = 0.7
-        self.controller_aruco.kp_w = 1.6
+        self.controller_aruco.linear_error_min = 0.063
+        self.controller_aruco.kp_l = 0.9
+        self.controller_aruco.kp_w = 1.8
 
         self.aruco_detected = False
+        self.kalman_flag = False
 
         print("Running To Goal Node")
 
@@ -98,23 +101,34 @@ class ToGoalNode(Node):
 
 
         # Create publisher and suscribers
-        self.sub_odom = self.create_subscription(Odometry, "/odom", self.odom_cb ,10)   
-        self.sub_scan = self.create_subscription(LaserScan, "/scan", self.scan_cb, 10) 
-        self.sub_set_point = self.create_subscription(Pose, "/set_point", self.setPoint_cb, 10) 
-        self.sub_aruco = self.create_subscription(ArucoDetection, "/aruco_detections", self.aruco_cb, 10)  
+        self.create_subscription(Odometry, "/odom", self.odom_cb ,10)   
+        self.create_subscription(LaserScan, "/scan", self.scan_cb, 10) 
+        self.create_subscription(Pose, "/set_point", self.setPoint_cb, 10) 
+        self.create_subscription(Bool, "/kalman_flag", self.kalmanFlag_cb, 1)
+        self.create_subscription(ArucoDetection, "/aruco_detections", self.aruco_cb, 10)  
 
         self.cmd_vel_pub = self.create_publisher(Twist, "/cmd_vel",1)
+        self.gripper_pub = self.create_publisher(Float32, "/ServoAngle",10)
 
         self.start_time = self.get_clock().now()
         timer_period = 1/10  # seconds
         self.timer = self.create_timer(timer_period, self.run)
 
 
+    def kalmanFlag_cb(self,msg):
+        self.kalman_flag = msg.data
+        if(self.kalman_flag):
+            self.state = "kalman filter"
+            self.stop()
+            time.sleep(5)
+        else:
+            self.state = self.prev_state
+    
     def aruco_cb(self,msg):
         for i in msg.markers:
             if(i.marker_id == 6):
                 self.aruco_cube = True
-            elif(i.marker_id == 0):
+            elif(i.marker_id == 1 and self.state == "find station"):
                 self.aruco_station = True
 
             
@@ -238,6 +252,19 @@ class ToGoalNode(Node):
 
             self.cmd_vel_pub.publish(msg)
 
+            if self.controller_aruco.linear_e == 0 and self.state=="find cube":
+                self.state = "close gripper"
+                self.stop()
+                time.sleep(2)
+                self.aruco_detected = False
+            
+            if self.controller_aruco.linear_e == 0 and self.state=="find station":
+                self.state = "open gripper"
+                self.stop()
+                time.sleep(2)
+                self.aruco_detected = False
+                self.aruco_station = False
+
         except TransformException as ex:
             self.get_logger().info(
                 f'Could not transform {to_frame_rel} to {from_frame_rel}: {ex}')
@@ -245,34 +272,57 @@ class ToGoalNode(Node):
             msg.linear.x = 0.0
             msg.angular.z = 0.0
             if self.aruco_detected and self.state=="find cube":
-                self.state = "controller"
+                self.state = "close gripper"
+                self.stop()
+                time.sleep(2)
                 self.aruco_detected = False
 
             if self.aruco_detected and self.state=="find station":
-                self.state = "stop"
+                self.state = "open gripper"
+                self.stop()
+                time.sleep(2)
                 self.aruco_detected = False
                 self.aruco_station = False
 
             self.cmd_vel_pub.publish(msg)
 
+    def close_gripper(self):
+        msg = Float32()
+        msg.data = -30.0
+        self.gripper_pub.publish(msg)
+        time.sleep(2)
+        self.state = "controller"
+
+    def open_gripper(self):
+        msg = Float32()
+        msg.data = 180.0
+        self.gripper_pub.publish(msg)
+        time.sleep(2)
+        self.state = "stop"
+
     def run(self):
         # aruco
         # Store frame names in variables that will be used to
         # compute transformations
-
         if self.state == "find cube":
             self.target_frame = 'marker_6'
             self.find_aruco()
         
         if self.state == "find station":
+            self.controller_aruco.linear_error_min = 0.08
             if self.aruco_station:
                 self.target_frame = self.station_input
                 self.find_aruco()
             else:
                 self.turn()
-                time.sleep(0.1)
+                time.sleep(0.2)
                 self.stop()
-                time.sleep(5)
+                time.sleep(1)
+        if self.state == "close gripper":
+            self.close_gripper()
+        
+        if self.state == "open gripper":
+            self.open_gripper()
             
         # bug0
         if self.lidar_flag:
@@ -301,6 +351,8 @@ class ToGoalNode(Node):
 
             self.start_time = self.get_clock().now()
             self.lidar_flag = False
+        if(self.state != "kalman filter"):
+            self.prev_state = self.state
         
 
 def main():

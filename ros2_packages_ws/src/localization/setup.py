@@ -25,17 +25,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'kinematic_model = localization.kinematic_model:main',
             'localization = localization.localization:main',
             'coordinate_transform = localization.coordinate_transform:main',
             'controller = localization.controller:main',
-            'joint_state = localization.joint_states:main',
-            'to_goal = localization.to_goal:main',
-            'to_goal_bug_2 = localization.to_goal_bug2:main',
             'test_lidar = localization.test_lidar:main',
-            'bug0 = localization.bug0:main',
-            'aruco_controller = localization.aruco_controller:main',
-            'transform_listener = localization.transform_listener:main',
             'to_goal_aruco = localization.to_goal_aruco:main',
 
         ],

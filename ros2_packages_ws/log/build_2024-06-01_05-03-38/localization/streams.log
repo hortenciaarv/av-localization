@@ -1,0 +1,28 @@
+[4.870s] Invoking command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/localization': PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data
+[6.705s] running egg_info
+[6.728s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[6.730s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[6.731s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[6.733s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[6.734s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[6.985s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[6.992s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[6.994s] running build
+[6.994s] running build_py
+[6.998s] copying localization/localization.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization
+[6.999s] running install
+[7.001s] running install_lib
+[7.008s] copying /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build/lib/localization/localization.py -> /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization
+[7.015s] byte-compiling /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/localization.py to localization.cpython-38.pyc
+[7.034s] running install_data
+[7.035s] running install_egg_info
+[7.045s] removing '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization-0.0.0-py3.8.egg-info' (and everything under it)
+[7.046s] Copying ../../build/localization/localization.egg-info to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization-0.0.0-py3.8.egg-info
+[7.053s] running install_scripts
+[7.134s] Installing controller script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[7.138s] Installing coordinate_transform script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[7.140s] Installing localization script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[7.141s] Installing test_lidar script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[7.141s] Installing to_goal_aruco script to /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/localization
+[7.142s] writing list of installed files to '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/install.log'
+[7.250s] Invoked command in '/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/src/localization' returned '0': PYTHONPATH=/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/prefix_override:/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/build install --record /home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/build/localization/install.log --single-version-externally-managed install_data

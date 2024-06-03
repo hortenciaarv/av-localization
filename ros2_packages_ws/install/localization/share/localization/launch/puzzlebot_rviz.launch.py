@@ -14,11 +14,6 @@ def generate_launch_description():
             'use_sim_time',
             default_value='false',
             description='Use simulation (Gazebo) clock if true'),
-        Node(
-            package='localization',
-            executable='localization',
-            name='localization',
-        ),
         # Node(
         #     package='localization',
         #     executable='controller',
@@ -59,7 +54,13 @@ def generate_launch_description():
             namespace = 'scan_to_map',
             executable='static_transform_publisher',
             arguments= ["0", "0", "0", "0", "0", "0", "base_link", "Imagen"]
-        )
+        ),
+        # Node(
+        #     package='localization',
+        #     executable='localization',
+        #     output='screen',
+        #     name='localization',
+        # )
         
     ])
 
