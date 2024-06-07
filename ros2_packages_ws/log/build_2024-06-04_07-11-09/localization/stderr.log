@@ -1,0 +1,5 @@
+  File "/home/puzzlebot/Puzzlebot_Lidar_ROS1_ROS2/ros2_packages_ws/install/localization/lib/python3.8/site-packages/localization/kalman_filter.py", line 134
+    print("linear transpose: ", self.linearise_observation_model.)
+                                                                 ^
+SyntaxError: invalid syntax
+

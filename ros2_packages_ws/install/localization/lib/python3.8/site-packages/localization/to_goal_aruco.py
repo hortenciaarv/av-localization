@@ -51,7 +51,7 @@ class ToGoalNode(Node):
 
         #set point
         self.x_d = 2.0
-        self.y_d = 1.5
+        self.y_d = 2.0
         self.theta_d = 0
 
         self.x_pose = 0
@@ -73,7 +73,7 @@ class ToGoalNode(Node):
         self.bug0.goal_x = self.x_d
         self.bug0.goal_y = self.y_d
         self.controller_flag = True
-        self.state = 'find cube'
+        self.state = 'controller'
         self.lidar_flag = False
         self.station_input = 'marker_1'
         self.aruco_cube = False
@@ -84,11 +84,11 @@ class ToGoalNode(Node):
         self.controller_aruco = Controller()
         self.controller_aruco.angular_error_min = 0.35
         self.controller_aruco.linear_error_min = 0.063
-        self.controller_aruco.kp_l = 0.9
-        self.controller_aruco.kp_w = 1.8
+        self.controller_aruco.kp_l = 0.8
+        self.controller_aruco.kp_w = 1.3
 
         self.aruco_detected = False
-        self.kalman_flag = False
+        
 
         print("Running To Goal Node")
 
@@ -104,7 +104,6 @@ class ToGoalNode(Node):
         self.create_subscription(Odometry, "/odom", self.odom_cb ,10)   
         self.create_subscription(LaserScan, "/scan", self.scan_cb, 10) 
         self.create_subscription(Pose, "/set_point", self.setPoint_cb, 10) 
-        self.create_subscription(Bool, "/kalman_flag", self.kalmanFlag_cb, 1)
         self.create_subscription(ArucoDetection, "/aruco_detections", self.aruco_cb, 10)  
 
         self.cmd_vel_pub = self.create_publisher(Twist, "/cmd_vel",1)
@@ -114,20 +113,13 @@ class ToGoalNode(Node):
         timer_period = 1/10  # seconds
         self.timer = self.create_timer(timer_period, self.run)
 
-
-    def kalmanFlag_cb(self,msg):
-        self.kalman_flag = msg.data
-        if(self.kalman_flag):
-            self.state = "kalman filter"
-            self.stop()
-            time.sleep(5)
-        else:
-            self.state = self.prev_state
     
     def aruco_cb(self,msg):
         for i in msg.markers:
-            if(i.marker_id == 6):
+            if(i.marker_id == 6 and self.state == "find cube"):
                 self.aruco_cube = True
+                # self.stop()
+                # time.sleep(3)
             elif(i.marker_id == 1 and self.state == "find station"):
                 self.aruco_station = True
 
@@ -178,8 +170,6 @@ class ToGoalNode(Node):
         self.flag_set_point = True
 
     def stop(self):
-        # while ((abs(self.x_pose - self.x_pose_prev) > 0.064) or (abs(self.y_pose - self.y_pose_prev) > 0.064)
-        #         or (abs(self.theta_pose - self.theta_pose_prev) > 0.064)):
         self.cmd_vel_msg.linear.x = 0.0
         self.cmd_vel_msg.angular.z = 0.0
         self.cmd_vel_pub.publish(self.cmd_vel_msg)
@@ -206,7 +196,7 @@ class ToGoalNode(Node):
     
     def turn(self):
         self.cmd_vel_msg.linear.x = 0.0
-        self.cmd_vel_msg.angular.z = 0.5
+        self.cmd_vel_msg.angular.z = 0.5 #0.5
         self.cmd_vel_pub.publish(self.cmd_vel_msg)
 
     def follow_wall(self):
@@ -252,11 +242,12 @@ class ToGoalNode(Node):
 
             self.cmd_vel_pub.publish(msg)
 
-            if self.controller_aruco.linear_e == 0 and self.state=="find cube":
-                self.state = "close gripper"
-                self.stop()
-                time.sleep(2)
-                self.aruco_detected = False
+            # if self.controller_aruco.linear_e == 0 and self.state=="find cube":
+            #     self.state = "close gripper"
+            #     self.stop()
+            #     time.sleep(2)
+            #     self.aruco_detected = False
+            #     self.aruco_cube = False
             
             if self.controller_aruco.linear_e == 0 and self.state=="find station":
                 self.state = "open gripper"
@@ -274,8 +265,9 @@ class ToGoalNode(Node):
             if self.aruco_detected and self.state=="find cube":
                 self.state = "close gripper"
                 self.stop()
-                time.sleep(2)
+                time.sleep(1)
                 self.aruco_detected = False
+                self.aruco_cube = False
 
             if self.aruco_detected and self.state=="find station":
                 self.state = "open gripper"
@@ -288,7 +280,7 @@ class ToGoalNode(Node):
 
     def close_gripper(self):
         msg = Float32()
-        msg.data = -30.0
+        msg.data = -20.0
         self.gripper_pub.publish(msg)
         time.sleep(2)
         self.state = "controller"
@@ -306,9 +298,18 @@ class ToGoalNode(Node):
         # compute transformations
         if self.state == "find cube":
             self.target_frame = 'marker_6'
-            self.find_aruco()
+            if self.aruco_cube:
+                self.find_aruco()
+            else:
+                self.turn()
+                time.sleep(0.2)
+                self.stop()
+                time.sleep(1)
+            # self.find_aruco()
         
         if self.state == "find station":
+            self.controller_aruco.kp_l = 0.9
+            self.controller_aruco.kp_w = 1.6
             self.controller_aruco.linear_error_min = 0.08
             if self.aruco_station:
                 self.target_frame = self.station_input
@@ -351,8 +352,7 @@ class ToGoalNode(Node):
 
             self.start_time = self.get_clock().now()
             self.lidar_flag = False
-        if(self.state != "kalman filter"):
-            self.prev_state = self.state
+        
         
 
 def main():
@@ -361,4 +361,7 @@ def main():
     rclpy.spin(to_goal_node)
     to_goal_node.destroy_node()
     rclpy.shutdown()
+
+if __name__ == "__main__":
+    main()
 

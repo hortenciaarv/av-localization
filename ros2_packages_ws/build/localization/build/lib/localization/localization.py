@@ -57,8 +57,8 @@ class localizationPublisher(Node):
         self.w = 0
         self.wl = 0
         self.wr = 0
-        self.kr = 0.13
-        self.kl = 0.13
+        self.kr = 100
+        self.kl = 100
         self.k = (1/2)*self.r
         self.covariance_matrix = np.matrix([[0,0,0],[0,0,0],[0,0,0]])
         self.prev_covariance_matrix = np.matrix([[0,0,0],[0,0,0],[0,0,0]])
@@ -72,19 +72,16 @@ class localizationPublisher(Node):
         self.kalman = KalmanFilter()
         self.kalman_filter_flag = Bool()
         self.kalman_filter_flag.data = False
-        self.kalman_done = False
 
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
     
         print("The localization node is Running")
         self.publisher_odom = self.create_publisher(Odometry, '/odom', 10)
-        self.publisher_kalman = self.create_publisher(Bool, '/kalman_flag', 1)
         self.wr_subscription = self.create_subscription(Float32, '/VelocityEncR', self.wr_update,
         rclpy.qos.QoSProfile(depth=10, reliability=rclpy.qos.ReliabilityPolicy.BEST_EFFORT))
         self.wl_subscription = self.create_subscription(Float32, '/VelocityEncL', self.wl_update,         
         rclpy.qos.QoSProfile(depth=10, reliability=rclpy.qos.ReliabilityPolicy.BEST_EFFORT))
-        self.subscription_lidar = self.create_subscription(LaserScan, 'scan', self.cb_lidar, 10)   
         self.subscription_aruco = self.create_subscription(ArucoDetection, 'aruco_detections', self.cb_aruco, 10)
         
         self.start_time = self.get_clock().now()
@@ -97,63 +94,47 @@ class localizationPublisher(Node):
         self.dt = self.duration.nanoseconds * 1e-9
 
     def update_kalman_filter_variables(self):
-        self.kalman.linear = self.v
-        self.kalman.angular = self.w
+        self.kalman.linear_velocity = self.v
+        self.kalman.angular_velocity = self.w
         # self.msg_odom = msg
         self.kalman.theta = self.theta
         self.kalman.dt = self.dt
         self.kalman.motion_model_covariance = self.covariance_matrix
-        self.kalman.prev_position = np.matrix([[self.x_prev], 
+        self.kalman.prev_robot_position = np.matrix([[self.x_prev], 
                                         [self.y_prev], 
                                         [self.theta_prev]])
 
-        self.kalman.initial_position = np.matrix([[self.x],
+        self.kalman.robot_position = np.matrix([[self.x],
                                            [self.y],
                                            [self.theta]])
         
-        matrix_A = np.matrix([[self.kalman.dt * self.kalman.linear * np.cos(self.kalman.prev_position[2,0])],
-                              [self.kalman.dt * self.kalman.linear * np.sin(self.kalman.prev_position[2,0])],
-                              [self.kalman.dt * self.kalman.angular]])
+        matrix_A = np.matrix([[self.kalman.dt * self.kalman.linear_velocity * np.cos(self.kalman.prev_robot_position[2,0])],
+                              [self.kalman.dt * self.kalman.linear_velocity * np.sin(self.kalman.prev_robot_position[2,0])],
+                              [self.kalman.dt * self.kalman.angular_velocity]])
         
-        self.kalman.estimated_position = self.kalman.prev_position + matrix_A
-        self.kalman.linearized_model =  np.matrix([[1, 0, -self.kalman.dt * self.kalman.linear * np.sin(self.kalman.prev_position[2,0])],
-                                            [0, 1,  self.kalman.dt * self.kalman.linear * np.cos(self.kalman.prev_position[2,0])],
+        self.kalman.estimated_position = self.kalman.prev_robot_position + matrix_A
+        self.kalman.linearized_model =  np.matrix([[1, 0, -self.kalman.dt * self.kalman.linear_velocity * np.sin(self.kalman.prev_robot_position[2,0])],
+                                            [0, 1,  self.kalman.dt * self.kalman.linear_velocity * np.cos(self.kalman.prev_robot_position[2,0])],
                                             [0, 0,  1]])
         self.kalman.propagation_uncertainty = np.multiply(np.multiply(self.kalman.linearized_model, self.kalman.prev_covariance_matrix), self.kalman.linearized_model.T) + self.kalman.motion_model_covariance
+        print("covariance: ", self.covariance_matrix)
+        # print("covariance kalman:", self.kalman.motion_model_covariance)
 
-        # self.kalman.prev_covariance_matrix = self.covariance_matrix
-        
-        # self.kalman.covariance_matrix = self.covariance_matrix
 
     def find_aruco(self):
-
-        from_frame_rel = 'marker_7'
-        to_frame_rel = 'odom'
-
-        try:
-            t = self.tf_buffer.lookup_transform(
-                to_frame_rel,
-                from_frame_rel,
-                rclpy.time.Time())
-            
-            self.kalman.landmark_position = np.matrix([[t.transform.translation.x],
-                                                    [t.transform.translation.y]])
-            self.kalman.kalman_filter()
-            print("Hice kalman")
-            self.covariance_matrix = self.kalman.covariance_matrix
-            self.x = self.kalman.position_kalman_filter[0,0]
-            self.y = self.kalman.position_kalman_filter[1,0]
-            self.theta = self.kalman.position_kalman_filter[2,0]
-            print(self.x)
-            print(self.y)
-            print(self.theta)
-            self.kalman_filter_flag.data = False
-            self.kalman_done = True
-        except TransformException as ex:
-            self.get_logger().info(
-                f'Could not transform {to_frame_rel} to {from_frame_rel}: {ex}')
-
-
+        self.kalman.kalman_filter()
+        # print("Hice kalman")
+        self.covariance_matrix = self.kalman.covariance_matrix
+        self.x = self.kalman.position_kalman_filter[0,0]
+        self.y = self.kalman.position_kalman_filter[1,0]
+        self.theta = self.kalman.position_kalman_filter[2,0]
+        print("Kalman position ")
+        print(self.x)
+        print(self.y)
+        print(self.theta)
+        print(self.kalman.lidar_coordinates)
+        self.kalman_filter_flag.data = False
+        
     def update_odom(self):
         self.calculate_dt()
         self.transform()
@@ -161,11 +142,10 @@ class localizationPublisher(Node):
         self.solver()
         self.calculate_covariance()
 
-        print(self.x)
-        print(self.y)
-        print(self.theta)
+        # print(self.x)
+        # print(self.y)
+        # print(self.theta)
 
-        self.publisher_kalman.publish(self.kalman_filter_flag)
         self.update_kalman_filter_variables()
         if self.kalman_filter_flag.data:
             self.find_aruco()
@@ -175,6 +155,9 @@ class localizationPublisher(Node):
         self.odom_msg.child_frame_id = 'base_link'
         self.odom_msg.pose.pose.position.x = self.x
         self.odom_msg.pose.pose.position.y = self.y
+
+        # print(self.x)
+        # print(self.y)
 
         q = quaternion_from_euler(0, 0, self.theta )
         self.odom_msg.pose.pose.orientation.x = q[0]
@@ -208,25 +191,16 @@ class localizationPublisher(Node):
         self.v = self.r*(self.wr + self.wl)/2
         self.w = self.r*(self.wr - self.wl)/self.l
     
-    def cb_lidar(self, msg):
-        self.kalman.msg_lidar = msg
-        zx = self.kalman.msg_lidar.ranges[0] * np.cos(self.theta)
-        zy = self.kalman.msg_lidar.ranges[0] * np.sin(self.theta)
-
-        self.kalman.lidar_coordinates = np.matrix([[zx],
-                                            [zy]])
         
     def cb_aruco(self, msg):
-        flag = False
         for i in msg.markers:
-            if i.marker_id == 7:
-               flag = True
-               if not self.kalman_done: 
-                self.kalman_filter_flag.data = True
+            if (i.marker_id == 7 or i.marker_id == 8):
+               self.kalman.marker_detected = i.marker_id
+               self.kalman.lidar_coordinates[0,0] = np.sqrt(i.pose.position.z**2 + i.pose.position.x**2) + 0.1
+               self.kalman.lidar_coordinates[1,0] = math.atan(i.pose.position.x / i.pose.position.z) + self.theta    
+               self.kalman_filter_flag.data = True
                 
-        if not flag:
-            self.kalman_done = False
-    
+       
     def wr_update(self,msg):
         self.wr = msg.data    
 

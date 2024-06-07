@@ -54,11 +54,11 @@ def generate_launch_description():
             namespace = 'scan_to_map',
             executable='static_transform_publisher',
             arguments= ["0", "0", "0", "0", "0", "0", "base_link", "Imagen"]
-        ),
+        )
         # Node(
         #     package='localization',
         #     executable='localization',
-        #     output='screen',
+        #     # output='screen',
         #     name='localization',
         # )
         
