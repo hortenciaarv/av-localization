@@ -16,3 +16,10 @@ The robot performs **perception, localization, path planning, and obstacle avoid
   - Delivers the cube to point A, B, or C (based on ArUco marker).
   - Calculates routes and avoids obstacles.
 - **ROS2 Humble integration** with differential drive robot.
+
+---
+
+## Demo
+
+A video demonstration of the project is available here:  
+➡️ [Watch on YouTube](https://www.youtube.com/watch?v=YZyWaMJPywo)
